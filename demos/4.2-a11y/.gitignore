@@ -1,0 +1,15 @@
+node_modules
+dist
+*.log
+.DS_Store
+.env
+.env.local
+coverage
+reports
+.lighthouseci
+stryker.log
+.stryker-tmp
+playwright-report
+test-results
+evidence
+.lostpixel

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1783130582342" clover="3.2.0">
+  <project timestamp="1783130582342" name="All files">
+    <metrics statements="82" coveredstatements="82" conditionals="21" coveredconditionals="21" methods="7" coveredmethods="7" elements="110" coveredelements="110" complexity="0" loc="82" ncloc="82" packages="1" files="4" classes="4"/>
+    <file name="id.ts" path="/Users/addyosmani/projects/linkedin-production-ready-course3/demos/helpdesk-ai-08-testing-solution/packages/core/src/id.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="index.ts" path="/Users/addyosmani/projects/linkedin-production-ready-course3/demos/helpdesk-ai-08-testing-solution/packages/core/src/index.ts">
+      <metrics statements="26" coveredstatements="26" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="19" count="103" type="cond" truecount="1" falsecount="0"/>
+      <line num="20" count="925" type="stmt"/>
+      <line num="21" count="925" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="329" type="stmt"/>
+      <line num="23" count="329" type="stmt"/>
+      <line num="24" count="329" type="stmt"/>
+      <line num="25" count="103" type="stmt"/>
+      <line num="26" count="103" type="stmt"/>
+    </file>
+    <file name="priority.ts" path="/Users/addyosmani/projects/linkedin-production-ready-course3/demos/helpdesk-ai-08-testing-solution/packages/core/src/priority.ts">
+      <metrics statements="26" coveredstatements="26" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="8" count="2674" type="stmt"/>
+      <line num="9" count="2674" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="16" count="103" type="stmt"/>
+      <line num="17" count="103" type="cond" truecount="1" falsecount="0"/>
+      <line num="18" count="30" type="stmt"/>
+      <line num="19" count="103" type="cond" truecount="1" falsecount="0"/>
+      <line num="20" count="26" type="stmt"/>
+      <line num="21" count="103" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="24" type="stmt"/>
+      <line num="23" count="103" type="cond" truecount="1" falsecount="0"/>
+      <line num="24" count="23" type="stmt"/>
+      <line num="25" count="103" type="stmt"/>
+      <line num="26" count="103" type="stmt"/>
+    </file>
+    <file name="sla.ts" path="/Users/addyosmani/projects/linkedin-production-ready-course3/demos/helpdesk-ai-08-testing-solution/packages/core/src/sla.ts">
+      <metrics statements="26" coveredstatements="26" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="7" count="208" type="stmt"/>
+      <line num="8" count="208" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="17" count="103" type="stmt"/>
+      <line num="18" count="103" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="206" type="stmt"/>
+      <line num="23" count="206" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="206" type="cond" truecount="3" falsecount="0"/>
+      <line num="25" count="92" type="stmt"/>
+      <line num="26" count="92" type="stmt"/>
+    </file>
+  </project>
+</coverage>

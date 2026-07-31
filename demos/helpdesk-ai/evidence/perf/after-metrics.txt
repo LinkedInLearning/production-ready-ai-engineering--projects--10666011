@@ -1,0 +1,4 @@
+Performance — after
+LCP: 108 ms
+CLS: 0.006
+Hero image(s) loaded: hero-1280.webp 40 KB

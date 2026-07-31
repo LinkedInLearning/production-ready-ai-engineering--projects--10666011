@@ -1,0 +1,3 @@
+Ran 3.98 tests per mutant on average.
+File          |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+[32m20:28:32 (82633) INFO MutationTestReportHelper[39m Final mutation score of 100.00 is greater than or equal to break threshold 60

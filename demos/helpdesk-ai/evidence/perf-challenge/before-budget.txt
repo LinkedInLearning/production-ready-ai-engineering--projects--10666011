@@ -1,0 +1,6 @@
+  
+  Package size limit has exceeded by 65.35 kB
+  Size limit: 165 kB
+  Size:       230.35 kB
+  
+  Try to reduce size or increase limit at .size-limit.json

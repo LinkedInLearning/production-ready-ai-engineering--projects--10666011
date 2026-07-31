@@ -1,0 +1,1 @@
+{"attempts":5,"failures":5,"fallbacks":5,"degraded":true}

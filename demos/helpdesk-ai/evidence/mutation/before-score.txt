@@ -1,0 +1,3 @@
+Mutation score (WEAK starter tests): 38.78% — under the 60% break threshold.
+Survivors include the EqualityOperator mutant ( > vs >= in isBreached ) that the
+weak test never checks, plus ConditionalExpression / MethodExpression mutants.

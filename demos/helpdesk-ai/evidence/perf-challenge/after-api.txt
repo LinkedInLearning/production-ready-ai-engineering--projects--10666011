@@ -1,0 +1,7 @@
+GET /api/tickets under load (300 req, concurrency 30, TICKETS_DELAY_MS=0)
+CACHED (scan computed once), seed = 204 tickets:
+  p50=15ms  p95=58ms  p99=181ms  max=185ms  wall=257ms
+
+~39x p95 improvement. Note: at the shipped 12-ticket seed this scan is cheap
+(p95 ~25ms), so the regression only demonstrates clearly at a realistic queue
+size (~200 tickets).

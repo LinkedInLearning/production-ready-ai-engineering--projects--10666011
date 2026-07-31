@@ -1,0 +1,21 @@
+axe WCAG 2.2 AA — 3 violation rule(s)
+
+[SERIOUS] color-contrast — Elements must meet minimum color contrast ratio thresholds
+  .ticket:nth-child(1) > button > .ticket__priority > .badge--urgent.badge
+  .ticket:nth-child(2) > button > .ticket__priority > .badge--urgent.badge
+  .ticket:nth-child(3) > button > .ticket__priority > .badge--high.badge
+  .ticket:nth-child(4) > button > .ticket__priority > .badge--high.badge
+  .ticket:nth-child(5) > button > .ticket__priority > .badge--high.badge
+  .ticket:nth-child(6) > button > .ticket__priority > .badge--high.badge
+  .ticket:nth-child(7) > button > .ticket__priority > .badge--normal.badge
+  .ticket:nth-child(8) > button > .ticket__priority > .badge--normal.badge
+  .ticket:nth-child(9) > button > .ticket__priority > .badge--normal.badge
+  .ticket:nth-child(10) > button > .ticket__priority > .badge--normal.badge
+  .ticket:nth-child(11) > button > .ticket__priority > .badge--normal.badge
+  .badge--low
+
+[CRITICAL] button-name — Buttons must have discernible text
+  .iconbtn
+
+[SERIOUS] color-contrast — Elements must meet minimum color contrast ratio thresholds
+  div > .badge.badge--urgent

@@ -1,0 +1,6 @@
+GET /api/tickets under load (300 req, concurrency 30, TICKETS_DELAY_MS=0)
+UNCACHED O(n^2) similarity scan per request, seed = 204 tickets:
+  p50=291ms  p95=2258ms  p99=5330ms  max=5347ms  wall=5396ms
+
+The quadratic scan blocks the event loop; under concurrency, requests pile up
+behind each other's compute and tail latency explodes to ~2.3s.

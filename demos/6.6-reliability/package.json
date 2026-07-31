@@ -1,0 +1,33 @@
+{
+  "name": "helpdesk-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Greenfield demo app for Production-Ready AI Engineering.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev -w @helpdesk/api",
+    "dev:web": "npm run dev -w @helpdesk/web",
+    "build": "npm run build --workspaces --if-present",
+    "check": "npm run seed && npm run typecheck && npm run test",
+    "test": "npm run test -w @helpdesk/core",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "seed": "node ./scripts/check-setup.mjs",
+    "fitness": "depcruise apps packages --config .dependency-cruiser.cjs",
+    "budget": "npm run build -w @helpdesk/web && npm run budget -w @helpdesk/web",
+    "mutation": "npm run mutation -w @helpdesk/core",
+    "evals": "npm run evals -w @helpdesk/api",
+    "security": "node ./scripts/security-gate.mjs"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.14.0",
+    "concurrently": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

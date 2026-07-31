@@ -1,0 +1,545 @@
+:root {
+  --bg: #eef2f5;
+  --panel: #ffffff;
+  --ink: #17212f;
+  --muted: #627083;
+  --line: #d8e0e8;
+  --blue: #1d4d6d;
+  --teal: #087f83;
+  --green: #12805c;
+  --amber: #b7791f;
+  --red: #c2413a;
+  --violet: #6f5aa8;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 248px 1fr;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  min-width: 0;
+  background: #101a27;
+  color: #f8fafc;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: #18a0a6;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.brand strong,
+.brand small {
+  display: block;
+}
+
+.brand small,
+.system-card small {
+  color: #9fb0c4;
+}
+
+nav {
+  display: grid;
+  gap: 8px;
+}
+
+nav a,
+.button {
+  text-decoration: none;
+}
+
+nav a {
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #dbe7f4;
+}
+
+nav a:first-child,
+nav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.system-card {
+  margin-top: auto;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.system-card span,
+.system-card strong,
+.system-card small {
+  display: block;
+}
+
+.system-card span,
+.eyebrow {
+  color: var(--teal);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 800;
+}
+
+.dashboard {
+  min-width: 0;
+  padding: 22px;
+  display: grid;
+  gap: 16px;
+}
+
+.hero {
+  min-width: 0;
+  min-height: 214px;
+  display: grid;
+  grid-template-columns: minmax(340px, 0.9fr) minmax(340px, 1.1fr);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.hero-copy {
+  min-width: 0;
+  padding: 24px;
+  align-self: center;
+}
+
+.hero h1 {
+  max-width: 650px;
+  margin: 8px 0 12px;
+  font-size: 1.95rem;
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.hero p {
+  max-width: 610px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  min-height: 214px;
+  object-fit: cover;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--blue);
+  border-radius: 8px;
+  background: var(--blue);
+  color: #ffffff;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.button--secondary {
+  border-color: #d7ebee;
+  background: #e8f2f3;
+  color: var(--teal);
+}
+
+.stats,
+.ops-grid {
+  min-width: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stats article,
+.panel {
+  min-width: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 16px 35px rgba(17, 28, 43, 0.06);
+}
+
+.stats article {
+  min-height: 116px;
+  padding: 15px;
+}
+
+.stats span,
+.stats small {
+  display: block;
+  color: var(--muted);
+}
+
+.stats strong {
+  display: block;
+  margin: 8px 0 2px;
+  font-size: 1.76rem;
+  line-height: 1;
+}
+
+.ops-grid {
+  grid-template-columns: minmax(0, 1.5fr) minmax(320px, 0.8fr);
+  align-items: start;
+}
+
+.panel {
+  padding: 18px;
+}
+
+.panel--orders,
+.panel--inventory {
+  grid-row: span 2;
+}
+
+.panel-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+h2 {
+  margin: 4px 0 0;
+  font-size: 1.08rem;
+  letter-spacing: 0;
+}
+
+.freshness {
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #ecfdf5;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 9px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+td strong,
+td small {
+  display: block;
+}
+
+td small {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background: #f8fbfd;
+}
+
+.compact th,
+.compact td {
+  padding: 10px 7px;
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.pill {
+  display: inline-flex;
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #eef2f6;
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 0.78rem;
+}
+
+.pill--open,
+.pill--normal,
+.pill--waiting_invoice {
+  background: #fff7ed;
+  color: var(--amber);
+}
+
+.pill--high,
+.pill--packed,
+.pill--label_failed,
+.pill--stalled {
+  background: #fef2f2;
+  color: var(--red);
+}
+
+.pill--urgent,
+.pill--blocked {
+  background: #ffe4e6;
+  color: #9f1239;
+}
+
+.pill--ready,
+.pill--shipped,
+.pill--delivered,
+.pill--low {
+  background: #ecfdf5;
+  color: var(--green);
+}
+
+.pill--sales,
+.pill--api {
+  background: #edf6ff;
+  color: var(--blue);
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+input,
+select {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0 10px;
+  background: #fbfdff;
+  color: var(--ink);
+}
+
+form .button {
+  grid-column: 1 / -1;
+  margin-top: 2px;
+}
+
+.panel--intake form {
+  grid-template-columns: 1fr;
+}
+
+.inventory-list,
+.risk-list,
+.supplier-list,
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.inventory-item {
+  display: grid;
+  grid-template-columns: minmax(130px, 1fr) minmax(90px, 1.1fr) 42px;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.inventory-item strong,
+.inventory-item span,
+.inventory-item small,
+.risk-list b,
+.risk-list span {
+  display: block;
+}
+
+.inventory-item span,
+.inventory-item small,
+.risk-list span,
+.supplier span,
+.supplier small,
+.event-list span,
+.event-list small {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.inventory-item small {
+  grid-column: 1 / -1;
+}
+
+.meter {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8edf3;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  background: var(--green);
+}
+
+.inventory-item--watch .meter span {
+  background: var(--amber);
+}
+
+.inventory-item--blocked .meter span {
+  background: var(--red);
+}
+
+.supplier,
+.event-list li,
+.risk-list li {
+  min-width: 0;
+  padding: 12px;
+  border-radius: 8px;
+  background: #f8fbfd;
+  border: 1px solid var(--line);
+}
+
+.supplier {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: start;
+}
+
+.supplier b {
+  color: var(--green);
+}
+
+.supplier--medium b {
+  color: var(--amber);
+}
+
+.supplier--high b {
+  color: var(--red);
+}
+
+.supplier small {
+  grid-column: 1 / -1;
+}
+
+.event-list li {
+  display: grid;
+  gap: 4px;
+}
+
+.event-list b {
+  font-size: 0.92rem;
+}
+
+@media (max-width: 1100px) {
+  .shell,
+  .hero,
+  .ops-grid,
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+
+  .hero img {
+    max-height: 230px;
+  }
+}
+
+@media (max-width: 680px) {
+  .dashboard,
+  .sidebar,
+  .hero-copy,
+  .panel,
+  .stats article {
+    padding: 14px;
+  }
+
+  .hero h1 {
+    font-size: 1.62rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  form,
+  .inventory-item {
+    grid-template-columns: 1fr;
+  }
+}
