@@ -1,13 +1,13 @@
-# Exercise D6 — Challenge: Fix a performance regression
+# Exercise D6 - Challenge: Fix a performance regression
 
 **Chapter 3 (Performance) · Challenge → Solution**
 
 A pull request slowed the app down. Your job is to find the regression, fix the real cause,
-and **prove** the win with measurements — then confirm the performance budget passes again.
+and **prove** the win with measurements - then confirm the performance budget passes again.
 
 ## Setup
 
-The failing challenge state is a standalone folder — no branch switching needed:
+The failing challenge state is a standalone folder - no branch switching needed:
 
 ```bash
 cd demos/helpdesk-ai-06-perf-challenge

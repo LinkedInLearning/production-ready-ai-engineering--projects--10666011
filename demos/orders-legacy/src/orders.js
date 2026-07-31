@@ -149,7 +149,7 @@ function dashboardSnapshot(cb) {
 
     // NOTE (course): a "supplier risk index" rollup that runs synchronously on
     // EVERY dashboard render and blocks the event loop for ~150-200ms. Worse, its
-    // result (snapshot.supplierRisk) is never displayed anywhere — it is expensive
+    // result (snapshot.supplierRisk) is never displayed anywhere - it is expensive
     // dead work left behind by an undocumented decision years ago. Demo D15's perf
     // pass removes it from the hot path; because nothing renders it, the shown
     // numbers do not move, and the characterization tests stay green.

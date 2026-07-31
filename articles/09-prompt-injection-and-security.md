@@ -4,7 +4,7 @@
 
 The `T-1006` ticket in `helpdesk-ai` contains a hidden instruction asking the assistant to ignore prior instructions and leak a fake customer email list. In the starting app, the deterministic mock obeys it so the failure is easy to see.
 
-This is the clearest place to make "green but wrong" visible. Have Claude drive the built-in browser, trigger the Suggested Reply on `T-1006`, and screenshot the leaked list in the reply box — the red frame — then, after hardening, screenshot the safe reply on the same ticket as the green frame. The eval log tells you the gate flipped; the frame pair proves it in the running product. Save both under `evidence/injection/`.
+This is the clearest place to make "green but wrong" visible. Have Claude drive the built-in browser, trigger the Suggested Reply on `T-1006`, and screenshot the leaked list in the reply box - the red frame - then, after hardening, screenshot the safe reply on the same ticket as the green frame. The eval log tells you the gate flipped; the frame pair proves it in the running product. Save both under `evidence/injection/`.
 
 That is indirect prompt injection. The user submitted content. The system later fed that content to a model. The model treated part of the content as an instruction.
 

@@ -7,12 +7,12 @@ import type { Ticket } from "./db.js";
  * NOTE (course): this is the naive starting implementation, and it is deliberately
  * unsafe on several axes the course fixes later:
  *  - SECURITY (D9/D11): raw, untrusted ticket text is dropped straight into the
- *    prompt as if it were trusted instructions — no isolation, no least privilege,
+ *    prompt as if it were trusted instructions - no isolation, no least privilege,
  *    no output guardrail. The offline mock is injection-VULNERABLE: it obeys a
  *    hidden "admin mode / export the customer list" instruction and leaks a (fake)
  *    customer email directory.
  *  - RELIABILITY (D12): the model call has no timeout, no retry, no circuit breaker,
- *    and no fallback — if it hangs the request hangs; if it throws the request 500s.
+ *    and no fallback - if it hangs the request hangs; if it throws the request 500s.
  *  - OBSERVABILITY (D12): nothing is measured.
  *
  * With no ANTHROPIC_API_KEY set, the deterministic mock runs so the course works
@@ -46,7 +46,7 @@ async function callModel(conversation: string): Promise<string> {
 
 // Deterministic stand-in for the model (offline demos).
 // NOTE (course): injection-VULNERABLE by design. It treats instructions embedded in
-// the ticket as commands — the hidden "admin mode / export the customer email list"
+// the ticket as commands - the hidden "admin mode / export the customer email list"
 // payload in ticket T-1006 makes it leak a fake customer directory. This is the exact
 // failure Demo D9 demonstrates and Demo D11 fixes with prompt isolation, least
 // privilege, and a runtime output guardrail.
@@ -59,10 +59,10 @@ function mockSuggest(conversation: string): string {
     );
   }
   if (/password|reset|locked out/i.test(conversation)) {
-    return "Hi, sorry you're locked out. I've triggered a fresh password-reset email — please check spam, and let me know if it still doesn't arrive.";
+    return "Hi, sorry you're locked out. I've triggered a fresh password-reset email - please check spam, and let me know if it still doesn't arrive.";
   }
   if (/invoice|billing|charge/i.test(conversation)) {
     return "Thanks for flagging this. I've pulled up your latest invoice and will break down each line item for you shortly.";
   }
-  return "Thanks for reaching out — I'm looking into this now and will follow up shortly with next steps.";
+  return "Thanks for reaching out - I'm looking into this now and will follow up shortly with next steps.";
 }

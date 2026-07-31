@@ -1,4 +1,4 @@
-Lighthouse (v13, performance category, headless throttling) — hero image before/after
+Lighthouse (v13, performance category, headless throttling) - hero image before/after
 
               BEFORE (811 KB PNG)   AFTER (40 KB WebP + preload)
   perf score        79                    100
@@ -9,4 +9,4 @@ Lighthouse (v13, performance category, headless throttling) — hero image befor
 Full reports: before-lighthouse.html / after-lighthouse.html (open in a browser).
 Note: these throttled numbers are the honest ones. The *-metrics.txt files come
 from a raw PerformanceObserver run (no throttling) and are optimistic by comparison
-(LCP 252 -> 108 ms) — useful for a quick check, not for a headline claim.
+(LCP 252 -> 108 ms) - useful for a quick check, not for a headline claim.

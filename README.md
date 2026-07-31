@@ -6,15 +6,15 @@ This is the repository for the LinkedIn Learning course `Production-Ready AI Eng
 ## Course Description
 
 Your AI agent can build a feature in minutes. The demo works. But would you ship it to real
-users, on a real network, with real data — and sleep well? That gap is this course.
+users, on a real network, with real data - and sleep well? That gap is this course.
 
 You work in two apps: a greenfield AI helpdesk of the kind an agent assembles in minutes,
-carrying the quality problems that speed creates, and an older orders service you inherited —
+carrying the quality problems that speed creates, and an older orders service you inherited -
 plain JavaScript, no tests, too much shared state, still making money, and nobody wants a
 rewrite. One you are proud to build; one you have to make safer without stopping the line.
 
-For every dimension of quality — user experience, accessibility, performance, testing, AI
-evals, security, reliability, CI, and rollout — the move is the same: name the bar, have Claude
+For every dimension of quality - user experience, accessibility, performance, testing, AI
+evals, security, reliability, CI, and rollout - the move is the same: name the bar, have Claude
 Code turn it into an executable check, let it fail, fix the real problem, run the check again.
 Where there is a UI, the evidence is not just a green check in the terminal: Claude drives the
 browser, so you catch the app being wrong, then catch it being right. Evidence over vibes.
@@ -28,21 +28,21 @@ main branch, so you can clone once and work through the whole course.
 
 | Path | What it holds |
 | --- | --- |
-| `demos/helpdesk-ai` | Greenfield app — **the app you build in** for most of the course |
-| `demos/orders-legacy` | Brownfield app — the app you build in for the legacy chapter |
+| `demos/helpdesk-ai` | Greenfield app - **the app you build in** for most of the course |
+| `demos/orders-legacy` | Brownfield app - the app you build in for the legacy chapter |
 | `demos/<chapter>.<movie>-<slug>` | Finished state of each hands-on movie (answer keys) |
 | `prompts/` | **Copy-paste Claude Code prompts, one README per chapter** |
 | `articles/` | Reference article per episode |
 
 `demos/helpdesk-ai` is **deliberately imperfect**. It ships the planted defects each episode
-fixes, and it ships **no quality gates** — every episode adds its own. That is the point: you
+fixes, and it ships **no quality gates** - every episode adds its own. That is the point: you
 watch a check go red, then green. See [demos/README.md](demos/README.md) for the full map of
 apps and answer keys.
 
 ### Working through an episode
 
 1. `cd demos/helpdesk-ai` (or `demos/orders-legacy` for the legacy chapter) and `npm install`.
-2. Open the matching chapter in [`prompts/`](prompts) — it lists each movie with its prompts.
+2. Open the matching chapter in [`prompts/`](prompts) - it lists each movie with its prompts.
 3. Run `claude` (CLI) or open the folder in Claude Code Desktop, paste the prompt, and let the
    agent make the changes.
 4. Review the diff and run the verification the prompt names.
@@ -79,7 +79,7 @@ gate files the previous episode *created*, which a restore leaves behind. Ignore
 	The web app runs on http://localhost:5173 and the API on http://localhost:3001.
 
 **No API key is required.** Without `ANTHROPIC_API_KEY`, the app's AI feature uses a
-deterministic mock — which is exactly what the prompt-injection and evals episodes rely on.
+deterministic mock - which is exactly what the prompt-injection and evals episodes rely on.
 
 ## Instructor
 
@@ -87,7 +87,7 @@ Addy Osmani
 
 Addy Osmani is an engineering and evangelism leader who spent over 14 years at Google leading
 developer experience. In recent years his focus shifted to AI: Gemini's developer experience,
-agentic engineering, coding agents, harnesses, evals and benchmarks, and code quality — work
+agentic engineering, coding agents, harnesses, evals and benchmarks, and code quality - work
 that led into a Director role at Google Cloud AI running Cloud AI Developer Experience and
 Technical Evangelism, where he helped launch Google's agent developer platform (Agent Platform,
 Agent CLI, and Agent Studio). Earlier he led Chrome's Developer Experience, working on DevTools,

@@ -16,7 +16,7 @@ function tokens(ticket: QueueTicket): Set<string> {
 }
 
 // NOTE (course): "related tickets" is computed by comparing every ticket to every
-// other one (O(n^2)) over their full message text — real token-overlap similarity,
+// other one (O(n^2)) over their full message text - real token-overlap similarity,
 // not a synthetic loop. The problem is that it runs synchronously inside the request
 // handler on EVERY GET /api/tickets and is never cached, so it blocks the event loop
 // under load. Demo D4 moves this off the hot path (precompute/cache or defer) so the
@@ -42,7 +42,7 @@ function relatedCounts(tickets: QueueTicket[]): Map<string, number> {
 
 // NOTE (course, Demo D2): a small, opt-in latency on the queue load so the web app's
 // loading state is actually observable when you drive the app by hand. It is OFF (0ms)
-// unless TICKETS_DELAY_MS is set — the dev script turns it on; tests, CI, and `start`
+// unless TICKETS_DELAY_MS is set - the dev script turns it on; tests, CI, and `start`
 // leave it unset, so nothing here is slowed. Clamped so a stray value can't hang a demo.
 function queueDelayMs(): number {
   const raw = Number(process.env.TICKETS_DELAY_MS ?? "0");

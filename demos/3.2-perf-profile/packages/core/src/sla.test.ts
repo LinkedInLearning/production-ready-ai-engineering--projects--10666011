@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { isBreached, slaRemainingHours, slaState } from "./sla.js";
 import { priorityWeight, triageSort } from "./index.js";
 
-// NOTE (course): these starter tests have high line coverage but weak assertions —
+// NOTE (course): these starter tests have high line coverage but weak assertions -
 // each function is exercised, but nothing pins its behavior at the boundaries. The
 // mutation-testing chapter reveals the surviving mutants (e.g. `>` vs `>=` in
 // isBreached, the slaState thresholds, the triage tie-break) and strengthens these

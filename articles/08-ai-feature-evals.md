@@ -22,9 +22,9 @@ A good eval is concrete enough to fail for the right reason. Avoid vague criteri
 - non-empty response,
 - no claim that an action was completed unless the system actually did it.
 
-Some qualities are not a regex, though — "is this reply genuinely helpful?" needs judgment. When you reach for a model to judge model output (LLM-as-judge), do it honestly, because the technique has two well-known traps:
+Some qualities are not a regex, though - "is this reply genuinely helpful?" needs judgment. When you reach for a model to judge model output (LLM-as-judge), do it honestly, because the technique has two well-known traps:
 
-- **Judge bias.** Models favor the first option shown, favor longer answers, and favor text that resembles their own. So don't ask "is this good?" — give the judge an explicit rubric (the criteria, plus pass/fail examples) and calibrate it against a small set of cases you labeled by hand. If it disagrees with your labels, the judge is miscalibrated, not your labels.
+- **Judge bias.** Models favor the first option shown, favor longer answers, and favor text that resembles their own. So don't ask "is this good?" - give the judge an explicit rubric (the criteria, plus pass/fail examples) and calibrate it against a small set of cases you labeled by hand. If it disagrees with your labels, the judge is miscalibrated, not your labels.
 - **Cost.** Judging is slow and not free, so tier it. Deterministic checks run on everything; the model judge runs only on the subjective cases or the critical paths. Cheap and certain first; expensive and probabilistic only where it earns its keep. Running a frontier judge on every case is a common way to make evals too expensive to keep.
 
 After hardening the prompt and output validation, run:

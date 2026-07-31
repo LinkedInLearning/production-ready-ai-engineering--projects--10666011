@@ -2,7 +2,7 @@ import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import { fetchTickets, type Channel, type Priority, type Ticket } from "./api.js";
 import { TicketList } from "./components/TicketList.js";
 import { Compose } from "./components/Compose.js";
-// Reporting is not on the critical path — code-split it out of the initial bundle
+// Reporting is not on the critical path - code-split it out of the initial bundle
 // and let it mount after the queue paints (Demo D4).
 const InsightsPanel = lazy(() =>
   import("./components/InsightsPanel.js").then((m) => ({ default: m.InsightsPanel }))
@@ -192,7 +192,7 @@ export function App() {
             </div>
 
             {/* Queue states (Demo D2): loading, fetch error with retry, empty (queue vs
-                filters), and the list itself — instead of an unconditionally blank list. */}
+                filters), and the list itself - instead of an unconditionally blank list. */}
             {status === "loading" && (
               <p className="queue-note" role="status">Loading tickets…</p>
             )}

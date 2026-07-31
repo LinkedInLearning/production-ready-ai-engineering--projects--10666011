@@ -1,5 +1,5 @@
 // Local, demo-friendly feature flag for the AI Suggested Reply path. No external
-// vendor — state comes from environment variables so it can be flipped per run.
+// vendor - state comes from environment variables so it can be flipped per run.
 //
 //   SUGGEST_AI_ENABLED   master switch (default OFF)
 //   SUGGEST_AI_ROLLOUT   percentage rollout 0..100 when enabled (default 0)

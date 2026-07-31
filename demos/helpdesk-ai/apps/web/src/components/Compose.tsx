@@ -28,7 +28,7 @@ export function Compose({ ticket, onClose }: Props) {
     closeRef.current?.focus();
   }, []);
 
-  // NOTE (course): Tab is trapped within the dialog, but Escape does nothing — there
+  // NOTE (course): Tab is trapped within the dialog, but Escape does nothing - there
   // is no keyboard way to dismiss it. Demo D7 adds Escape-to-close.
   function onKeyDown(event: React.KeyboardEvent<HTMLDivElement>) {
     if (event.key !== "Tab") return;
@@ -52,7 +52,7 @@ export function Compose({ ticket, onClose }: Props) {
   }
 
   // NOTE (course): optimistic and unguarded. The box clears and "Reply sent." shows
-  // immediately; if the request fails there is no error, no retry, and no signal —
+  // immediately; if the request fails there is no error, no retry, and no signal -
   // the agent believes the reply went out. Demo D2 adds the failure UX.
   async function onSend() {
     setStatus("Reply sent.");
@@ -98,7 +98,7 @@ export function Compose({ ticket, onClose }: Props) {
               ))}
             </div>
 
-            {/* NOTE (course): no <label> — only a placeholder, which is not an
+            {/* NOTE (course): no <label> - only a placeholder, which is not an
                 accessible name for the textarea. Demo D7 adds a real label. */}
             <textarea
               className="compose__box"
@@ -111,14 +111,14 @@ export function Compose({ ticket, onClose }: Props) {
               <button type="button" className="btn" onClick={onSuggest} disabled={busy}>
                 {busy ? "Drafting..." : "AI Suggested Reply"}
               </button>
-              {/* NOTE (course): icon-only button with no accessible name — the glyph
+              {/* NOTE (course): icon-only button with no accessible name - the glyph
                   is aria-hidden and there is no aria-label. Demo D7 names it. */}
               <button type="button" className="iconbtn" onClick={onSend}>
                 <span aria-hidden="true">&#10148;</span>
               </button>
             </div>
 
-            {/* NOTE (course): visual-only status — no aria-live, so a screen reader
+            {/* NOTE (course): visual-only status - no aria-live, so a screen reader
                 never announces "Reply sent." And there is no error/retry UI at all.
                 Demo D2 adds the error state; Demo D7 makes this a live region. */}
             <div className="compose__status">{status}</div>

@@ -16,7 +16,7 @@ function tokens(ticket: QueueTicket): Set<string> {
 }
 
 // NOTE (course): "related tickets" is computed by comparing every ticket to every
-// other one (O(n^2)) over their full message text — real token-overlap similarity,
+// other one (O(n^2)) over their full message text - real token-overlap similarity,
 // not a synthetic loop. The problem is that it runs synchronously inside the request
 // handler on EVERY GET /api/tickets and is never cached, so it blocks the event loop
 // under load. Demo D4 moves this off the hot path (precompute/cache or defer) so the
@@ -42,7 +42,7 @@ function relatedCounts(tickets: QueueTicket[]): Map<string, number> {
 
 // NOTE (course, Demo D2): a simulated slow queue load, so the UX episode can study the
 // loading state. It is OFF (0ms) unless TICKETS_DELAY_MS is set. `npm run dev` does NOT set
-// it — only `npm run dev:slow` does, at 4000ms. That separation is deliberate: an always-on
+// it - only `npm run dev:slow` does, at 4000ms. That separation is deliberate: an always-on
 // delay would silently mask the real API latency the performance episodes measure.
 // 4000ms is chosen so the empty window is unmistakable on camera and spans several samples
 // when the browser polls it, rather than being a value you have to re-tune by hand.

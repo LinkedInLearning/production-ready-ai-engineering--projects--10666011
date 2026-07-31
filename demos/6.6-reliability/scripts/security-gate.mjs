@@ -51,7 +51,7 @@ try {
     .filter((f) => !/\.(png|jpe?g|webp|gif|ico|pdf|lock)$/i.test(f))
     .filter((f) => f !== "package-lock.json" && f !== SELF);
 } catch {
-  warn("could not enumerate files via git — secret scan skipped");
+  warn("could not enumerate files via git - secret scan skipped");
 }
 
 const secretHits = [];
@@ -130,7 +130,7 @@ check(
   confusionHits.length ? confusionHits.join(", ") : "none"
 );
 
-// Scan code only — comments legitimately mention the patterns we forbid.
+// Scan code only - comments legitimately mention the patterns we forbid.
 function stripComments(src) {
   return src
     .replace(/\/\*[\s\S]*?\*\//g, "")
@@ -178,16 +178,16 @@ if (audit && audit.metadata && audit.metadata.vulnerabilities) {
     `prod: ${v.critical || 0} critical, ${v.high || 0} high, ${v.moderate || 0} moderate, ${v.low || 0} low`
   );
   if ((v.high || 0) > 0) {
-    warn(`${v.high} production HIGH advisories — triage with \`npm audit --omit=dev\``);
+    warn(`${v.high} production HIGH advisories - triage with \`npm audit --omit=dev\``);
   }
 } else {
-  warn("`npm audit` unavailable (offline?) — dependency check skipped");
+  warn("`npm audit` unavailable (offline?) - dependency check skipped");
 }
 
 // ---- Report ----------------------------------------------------------------
 console.log("Security gate\n");
 for (const c of checks) {
-  console.log(`  ${c.ok ? "✓" : "✗"} ${c.name}${c.detail ? ` — ${c.detail}` : ""}`);
+  console.log(`  ${c.ok ? "✓" : "✗"} ${c.name}${c.detail ? ` - ${c.detail}` : ""}`);
 }
 for (const w of warnings) {
   console.log(`  ! ${w}`);
@@ -195,7 +195,7 @@ for (const w of warnings) {
 console.log("");
 
 if (blocked) {
-  console.error("FAIL — security gate blocked. Fix the ✗ items above before claiming done.");
+  console.error("FAIL - security gate blocked. Fix the ✗ items above before claiming done.");
   process.exit(1);
 }
-console.log("OK — security gate passed.");
+console.log("OK - security gate passed.");

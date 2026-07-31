@@ -1,14 +1,14 @@
-# Exercise D13 — Challenge: Harden an AI-built endpoint
+# Exercise D13 - Challenge: Harden an AI-built endpoint
 
 **Chapter 6 (Security) · Challenge → Solution**
 
 An agent built a new endpoint, `POST /api/tickets/:id/escalate`, that drafts an escalation
-note with the model and notifies an on-call webhook. It looks fine and the happy path works —
+note with the model and notifies an on-call webhook. It looks fine and the happy path works -
 but it shipped with real security flaws. Find and fix them, then gate the fix.
 
 ## Setup
 
-The challenge starting state is a standalone folder — no branch switching needed:
+The challenge starting state is a standalone folder - no branch switching needed:
 
 ```bash
 cd demos/helpdesk-ai-12-security-challenge
@@ -17,7 +17,7 @@ npm install && npm run dev
 
 Work directly in that folder. To reset between attempts, run `git restore .` inside it.
 
-## What's wrong (planted — three issues)
+## What's wrong (planted - three issues)
 
 1. **Supply chain (slopsquatting):** the endpoint imports a hallucinated package that doesn't
    exist on the registry (an attacker could register that name). See `apps/api/package.json`.

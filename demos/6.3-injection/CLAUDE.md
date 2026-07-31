@@ -1,4 +1,4 @@
-# helpdesk-ai — project guide for Claude Code
+# helpdesk-ai - project guide for Claude Code
 
 Helpdesk AI is a customer-support app. Support agents triage tickets, and an **AI Suggested
 Reply** feature drafts responses. This repo is the greenfield anchor project for the
@@ -6,9 +6,9 @@ Reply** feature drafts responses. This repo is the greenfield anchor project for
 
 ## Architecture (and the boundary rule)
 
-- `apps/web` — Vite + React + TypeScript UI.
-- `apps/api` — Fastify + TypeScript REST API. Hosts the server-side LLM calls.
-- `packages/core` — framework-free business logic (SLA, priority). Unit-test target.
+- `apps/web` - Vite + React + TypeScript UI.
+- `apps/api` - Fastify + TypeScript REST API. Hosts the server-side LLM calls.
+- `packages/core` - framework-free business logic (SLA, priority). Unit-test target.
 
 **Boundary rule (the quality bar starts here):**
 - `apps/web` MUST talk to the backend only over the HTTP API.
@@ -30,7 +30,7 @@ Reply** feature drafts responses. This repo is the greenfield anchor project for
 ## Security rules (agents MUST follow)
 
 These are the rules the security chapter (D10) makes executable as an `npm run security` gate.
-Until then they are documented here and followed by hand — like the boundary rule above.
+Until then they are documented here and followed by hand - like the boundary rule above.
 
 - **No secrets in files.** Secrets come from the environment only (`ANTHROPIC_API_KEY`); never
   hardcode keys/tokens/passwords in source, tests, config, or `data/`. Keep `.env` gitignored.
@@ -38,7 +38,7 @@ Until then they are documented here and followed by hand — like the boundary r
   gets one ticket's content and **no tools/network** beyond the model call; server code touches
   only the data the request requires. Don't widen scope "just in case".
 - **Validate inputs at trust boundaries.** Treat anything crossing a boundary as untrusted:
-  HTTP request bodies/params, and — especially — ticket text fed to the model. Isolate untrusted
+  HTTP request bodies/params, and - especially - ticket text fed to the model. Isolate untrusted
   content in prompts and validate model output before it is surfaced (the `guardReply` guardrail
   in `apps/api/src/llm.ts`).
 - **Once the security gate exists, run it before claiming done.** The security chapter adds
@@ -49,11 +49,11 @@ Until then they are documented here and followed by hand — like the boundary r
 
 ## Commands
 
-- `npm run dev` — run API (http://localhost:3001) and web (http://localhost:5173).
-- `npm run test` — unit tests for `@helpdesk/core`.
-- `npm run typecheck` — type-check all packages.
+- `npm run dev` - run API (http://localhost:3001) and web (http://localhost:5173).
+- `npm run test` - unit tests for `@helpdesk/core`.
+- `npm run typecheck` - type-check all packages.
 
-> Quality gates (`fitness`, `budget`, `mutation`, `evals`, `security`, …) are **not** pre-wired.
+> Quality gates (`fitness`, `budget`, `mutation`, `evals`, `security`, ...) are **not** pre-wired.
 > Each chapter turns one part of the quality bar into an executable `npm run` check, so in the
 > starting state only `dev`, `build`, `check`, `test`, and `typecheck` exist.
 

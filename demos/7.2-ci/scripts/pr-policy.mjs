@@ -2,10 +2,10 @@
 // Node script (no deps) that fails with file:line findings.
 //
 // Policy:
-//   1. Input validation — any route under apps/api/src/routes that reads request
+//   1. Input validation - any route under apps/api/src/routes that reads request
 //      input (req.body / req.query) MUST declare a strict schema (a Fastify body
-//      schema with `additionalProperties` — i.e. unknown-field rejection).
-//   2. LLM eval coverage — any route that calls the LLM MUST be covered by an eval
+//      schema with `additionalProperties` - i.e. unknown-field rejection).
+//   2. LLM eval coverage - any route that calls the LLM MUST be covered by an eval
 //      (it goes through an eval-covered entrypoint like `suggestReply`, or an eval
 //      file references the route).
 //
@@ -107,7 +107,7 @@ for (const file of targets) {
   const src = readFileSync(file, "utf8");
   const code = stripComments(src);
 
-  // Policy 1 — input validation.
+  // Policy 1 - input validation.
   const readsInput = /req\.body|req\.query/.test(code);
   const hasStrictSchema = /additionalProperties\s*:/.test(code);
   if (readsInput && !hasStrictSchema) {
@@ -116,11 +116,11 @@ for (const file of targets) {
       line: firstLine(src, /req\.(body|query)/),
       rule: "input-validation",
       message:
-        "route reads request input (req.body/req.query) without a strict schema — add a Fastify body schema with additionalProperties:false",
+        "route reads request input (req.body/req.query) without a strict schema - add a Fastify body schema with additionalProperties:false",
     });
   }
 
-  // Policy 2 — LLM routes need an eval case.
+  // Policy 2 - LLM routes need an eval case.
   if (LLM_USE_RE.test(code)) {
     const viaCoveredEntrypoint = /suggestReply/.test(code) && /suggestReply/.test(evals);
     const referencedByEval = evals.includes(file.split("/").pop());
@@ -130,16 +130,16 @@ for (const file of targets) {
         line: firstLine(src, LLM_USE_RE),
         rule: "llm-eval-coverage",
         message:
-          "route calls the LLM but has no eval case — route it through an eval-covered entrypoint (suggestReply) or add an eval case",
+          "route calls the LLM but has no eval case - route it through an eval-covered entrypoint (suggestReply) or add an eval case",
       });
     }
   }
 }
 
-console.log("PR policy gate — API routes\n");
+console.log("PR policy gate - API routes\n");
 if (!targets.length) {
   console.log("  (no new/changed API route files to check)\n");
-  console.log("OK — PR policy gate passed.");
+  console.log("OK - PR policy gate passed.");
   process.exit(0);
 }
 console.log(`  checking ${targets.length} route file(s): ${targets.map((f) => f.split("/").pop()).join(", ")}\n`);
@@ -148,9 +148,9 @@ if (findings.length) {
   for (const f of findings) {
     console.error(`  ✗ ${f.file}:${f.line}  [${f.rule}]  ${f.message}`);
   }
-  console.error(`\nFAIL — ${findings.length} policy violation(s).`);
+  console.error(`\nFAIL - ${findings.length} policy violation(s).`);
   process.exit(1);
 }
 
 console.log("  ✓ all checked routes validate input and (if they call the LLM) are eval-covered\n");
-console.log("OK — PR policy gate passed.");
+console.log("OK - PR policy gate passed.");

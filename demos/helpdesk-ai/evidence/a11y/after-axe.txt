@@ -1,3 +1,3 @@
-axe WCAG 2.2 AA — 0 violation rule(s)
+axe WCAG 2.2 AA - 0 violation rule(s)
 
 No violations.

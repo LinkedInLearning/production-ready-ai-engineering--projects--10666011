@@ -1,8 +1,8 @@
-# Quality gates — the whole stack, assembled and wired into CI (Demo D15).
+# Quality gates - the whole stack, assembled and wired into CI (Demo D15).
 #
 # Every gate built over the course is a REQUIRED, non-bypassable step here: if any
 # one fails the job fails and the merge is blocked. There are no commented-out
-# placeholders — each step runs a real gate that passes offline (no ANTHROPIC_API_KEY;
+# placeholders - each step runs a real gate that passes offline (no ANTHROPIC_API_KEY;
 # the LLM mock runs deterministically).
 name: quality
 
@@ -23,19 +23,19 @@ jobs:
       - name: Install
         run: npm ci
 
-      # Ch1 — architecture fitness function (boundary rule, dependency-cruiser).
+      # Ch1 - architecture fitness function (boundary rule, dependency-cruiser).
       - name: Architecture fitness function
         run: npm run fitness
 
-      # Ch5 — correctness: unit tests for @helpdesk/core.
+      # Ch5 - correctness: unit tests for @helpdesk/core.
       - name: Unit tests
         run: npm run test
 
-      # Ch3 — performance budget: build the web app and enforce the bundle-size budget.
+      # Ch3 - performance budget: build the web app and enforce the bundle-size budget.
       - name: Performance budget
         run: npm run budget
 
-      # Ch3 — Lighthouse budget: Lighthouse CI against the app built in the step above
+      # Ch3 - Lighthouse budget: Lighthouse CI against the app built in the step above
       # (reuses apps/web/dist). Runs CI-native via the action, so no @lhci/cli
       # devDependency is added and `npm audit` stays clean; `npm run lhci` runs the same
       # assertions locally. Config: lighthouserc.json.
@@ -45,20 +45,20 @@ jobs:
           configPath: ./lighthouserc.json
           temporaryPublicStorage: true
 
-      # Ch5 — mutation testing: Stryker score gate on @helpdesk/core.
+      # Ch5 - mutation testing: Stryker score gate on @helpdesk/core.
       - name: Mutation testing
         run: npm run mutation
 
-      # Ch-evals — AI feature evals: golden-set assertions incl. the T-1006
+      # Ch-evals - AI feature evals: golden-set assertions incl. the T-1006
       # prompt-injection case (offline, deterministic).
       - name: AI feature evals
         run: npm run evals
 
-      # Ch-security — dependency audit (npm audit --audit-level=high) + hardened
+      # Ch-security - dependency audit (npm audit --audit-level=high) + hardened
       # escalate endpoint tests (strict schema, no SSRF).
       - name: Security gate
         run: npm run security
 
-      # Ch-reliability — timeout / fallback / circuit-breaker / guardrail suite.
+      # Ch-reliability - timeout / fallback / circuit-breaker / guardrail suite.
       - name: Reliability gate
         run: npm run reliability

@@ -61,7 +61,7 @@ const STOPWORDS = new Set([
 
 // Real reporting work: scan every message body across the whole queue and rank the
 // most common meaningful terms ("hot topics"). Cost scales with message volume.
-// NOTE (course): this runs on EVERY render because it is not memoized — typing in
+// NOTE (course): this runs on EVERY render because it is not memoized - typing in
 // the search box re-renders the app and re-scans all message text. Demo D4 memoizes
 // it and code-splits/defers this whole panel off the critical path.
 function hotTopics(tickets: Ticket[]): Array<{ term: string; count: number }> {

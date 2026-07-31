@@ -177,7 +177,7 @@ export function App() {
             </div>
 
             {/* Queue states (Demo D2): loading, fetch error with retry, empty (queue vs
-                filters), and the list itself — instead of an unconditionally blank list. */}
+                filters), and the list itself - instead of an unconditionally blank list. */}
             {status === "loading" && (
               <p className="queue-note" role="status">Loading tickets…</p>
             )}

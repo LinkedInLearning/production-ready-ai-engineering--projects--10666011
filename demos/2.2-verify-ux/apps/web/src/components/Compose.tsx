@@ -29,7 +29,7 @@ export function Compose({ ticket, onClose }: Props) {
     closeRef.current?.focus();
   }, []);
 
-  // NOTE (course): Tab is trapped within the dialog, but Escape does nothing — there
+  // NOTE (course): Tab is trapped within the dialog, but Escape does nothing - there
   // is no keyboard way to dismiss it. Demo D7 adds Escape-to-close.
   function onKeyDown(event: React.KeyboardEvent<HTMLDivElement>) {
     if (event.key !== "Tab") return;
@@ -108,7 +108,7 @@ export function Compose({ ticket, onClose }: Props) {
               ))}
             </div>
 
-            {/* NOTE (course): no <label> — only a placeholder, which is not an
+            {/* NOTE (course): no <label> - only a placeholder, which is not an
                 accessible name for the textarea. Demo D7 adds a real label. */}
             <textarea
               className="compose__box"
@@ -121,7 +121,7 @@ export function Compose({ ticket, onClose }: Props) {
               <button type="button" className="btn" onClick={onSuggest} disabled={busy}>
                 {busy ? "Drafting..." : "AI Suggested Reply"}
               </button>
-              {/* NOTE (course): icon-only button with no accessible name — the glyph
+              {/* NOTE (course): icon-only button with no accessible name - the glyph
                   is aria-hidden and there is no aria-label. Demo D7 names it. */}
               <button type="button" className="iconbtn" onClick={onSend} disabled={busy}>
                 <span aria-hidden="true">&#10148;</span>

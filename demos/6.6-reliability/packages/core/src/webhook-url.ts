@@ -1,7 +1,7 @@
 // Framework-free guard for outbound webhook destinations. Returns true only for
 // URLs that are safe for the server to POST to: HTTPS, and NOT pointing at
 // loopback / link-local / private (RFC 1918) hosts. This blocks the common SSRF
-// targets — notably the cloud metadata endpoint at 169.254.169.254.
+// targets - notably the cloud metadata endpoint at 169.254.169.254.
 //
 // This is a hostname allowlist guard, not a complete SSRF defence (it does not
 // resolve DNS). Use it together with a *server-configured* destination; never

@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { formatTicketId } from "./ticket-id.js";
 
-// NOTE (course): weak starter test — only the bare-id happy path, so a mutant that
+// NOTE (course): weak starter test - only the bare-id happy path, so a mutant that
 // drops the already-prefixed guard survives. The mutation-testing chapter adds the
 // missing case.
 describe("formatTicketId", () => {

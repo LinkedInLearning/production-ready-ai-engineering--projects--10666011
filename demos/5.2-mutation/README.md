@@ -38,7 +38,7 @@ exercises/      Per-demo starting prompts (e.g., d6, d13)
 ## Known starting-state issues (intentional - these are the lessons)
 
 - `apps/web` imports a server-only module from `apps/api` (`suggestFlag` from the
-  feature-flag module) — the boundary violation the Ch1 fitness function catches.
+  feature-flag module) - the boundary violation the Ch1 fitness function catches.
 - The queue has no loading, empty, or error states, and the compose submit is
   optimistic: it clears the box and shows "Reply sent." even when the send fails, so
   the agent never learns it did not go out (Ch2, UX).
@@ -57,7 +57,7 @@ exercises/      Per-demo starting prompts (e.g., d6, d13)
 - The `/api/tickets/:id/reply` endpoint is unvalidated and trusts the request body (Ch6).
 - The model call has no timeout, retry, circuit breaker, or fallback, and there is no
   observability (Ch7, reliability).
-- No quality gates are wired yet — only `dev`, `build`, `check`, `test`, and `typecheck`
+- No quality gates are wired yet - only `dev`, `build`, `check`, `test`, and `typecheck`
   exist; each chapter turns one part of the quality bar into an executable `npm run` check.
 
 ## Reset a take

@@ -16,7 +16,7 @@ function tokens(ticket: QueueTicket): Set<string> {
 }
 
 // NOTE (course): "related tickets" is computed by comparing every ticket to every
-// other one (O(n^2)) over their full message text — real token-overlap similarity,
+// other one (O(n^2)) over their full message text - real token-overlap similarity,
 // not a synthetic loop. The problem is that it runs synchronously inside the request
 // handler on EVERY GET /api/tickets and is never cached, so it blocks the event loop
 // under load. Demo D4 moves this off the hot path (precompute/cache or defer) so the

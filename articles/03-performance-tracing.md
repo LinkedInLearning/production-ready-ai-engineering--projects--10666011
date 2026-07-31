@@ -6,7 +6,7 @@ The `helpdesk-ai` ticket list starts with an intentionally oversized, dimensionl
 
 The wrong move is to guess. A slow page can tempt you into memoization, lazy loading, dependency swaps, or caching before you know what is actually slow. Sometimes that works. Often it just creates a more complicated slow page.
 
-Start with a browser trace — in plan mode.
+Start with a browser trace - in plan mode.
 
 Run the measurement pass in plan mode (read-only) so the agent can trace and profile without editing. Separating exploration from implementation is the point: it keeps diagnosis honest and stops the agent from "fixing" before it has evidence. Switch out of plan mode only once the trace has named the bottleneck.
 

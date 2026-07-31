@@ -1,4 +1,4 @@
 Begin state: NO observability.
 The model call has no timeout, retry, or fallback, and there is no /api/metrics
-endpoint — a forced failure just 500s and the AI Suggested Reply hangs (see
+endpoint - a forced failure just 500s and the AI Suggested Reply hangs (see
 before-ui.png). Failures are invisible. Demo D12 adds the fallback + telemetry.

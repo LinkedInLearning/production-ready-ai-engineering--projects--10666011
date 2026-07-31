@@ -8,15 +8,15 @@ import { suggestReply } from "../llm.js";
  * POST /api/tickets/:id/escalate
  * Drafts an escalation note for a ticket and posts it to a *server-configured*
  * webhook. Hardened:
- *  - FIX 1: no third-party signer dependency — HMAC signing uses node:crypto.
+ *  - FIX 1: no third-party signer dependency - HMAC signing uses node:crypto.
  *  - FIX 2: strict body schema (bounds + closed value sets + unknown-field reject).
  *  - FIX 3: the webhook destination is server-controlled and SSRF-validated; it is
  *    never taken from the request.
- *  - FIX 4: the note carries only this ticket's own fields (least privilege) — no
+ *  - FIX 4: the note carries only this ticket's own fields (least privilege) - no
  *    customer directory.
  */
 
-// FIX 2 — strict request validation. additionalProperties:false rejects unknown
+// FIX 2 - strict request validation. additionalProperties:false rejects unknown
 // fields (e.g. a smuggled `webhookUrl`) with a 400; bounds cap length; priority is
 // a closed enum.
 const escalateBodySchema = {
@@ -42,7 +42,7 @@ export interface EscalationNote {
   summary: string;
 }
 
-// FIX 4 — least privilege: only the escalated ticket's own fields. No getTickets(),
+// FIX 4 - least privilege: only the escalated ticket's own fields. No getTickets(),
 // no customer directory, no other customers' PII.
 export function buildEscalationNote(
   ticket: Ticket,
@@ -58,7 +58,7 @@ export function buildEscalationNote(
   };
 }
 
-// FIX 3 — the destination is read from server config and re-validated as a safe
+// FIX 3 - the destination is read from server config and re-validated as a safe
 // public HTTPS URL. Returns null when unset or unsafe, so nothing is posted.
 export function escalationWebhookUrl(): string | null {
   const raw = process.env.ESCALATION_WEBHOOK_URL;
@@ -69,7 +69,7 @@ export function escalationWebhookUrl(): string | null {
 async function postEscalation(url: string, note: EscalationNote): Promise<void> {
   const payload = JSON.stringify(note);
   const secret = process.env.ESCALATION_WEBHOOK_SECRET ?? "";
-  // FIX 1 — sign with the platform crypto library, not an unvetted package.
+  // FIX 1 - sign with the platform crypto library, not an unvetted package.
   const signature = createHmac("sha256", secret).update(payload).digest("hex");
   await fetch(url, {
     method: "POST",

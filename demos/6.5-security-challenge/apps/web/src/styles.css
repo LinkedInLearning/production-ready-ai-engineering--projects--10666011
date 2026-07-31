@@ -404,7 +404,7 @@ h2 {
   font-weight: 800;
 }
 
-/* Badge backgrounds meet WCAG 2.2 AA (>=4.5:1 with white text) — fixed in Demo D7. */
+/* Badge backgrounds meet WCAG 2.2 AA (>=4.5:1 with white text) - fixed in Demo D7. */
 .badge--low { background: #5b6b86; }
 .badge--normal { background: #157a54; }
 .badge--high { background: #8a5a00; }

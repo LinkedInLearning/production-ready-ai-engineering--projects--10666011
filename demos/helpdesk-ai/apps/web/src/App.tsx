@@ -26,7 +26,7 @@ export function App() {
   const [channel, setChannel] = useState<Channel | "all">("all");
 
   // NOTE (course): sunny-day only. No loading state while tickets fetch, no empty
-  // state, and no error handling — if the request is slow the queue is blank, and
+  // state, and no error handling - if the request is slow the queue is blank, and
   // if it fails, nothing tells the user. Demo D2 adds the missing UX states.
   useEffect(() => {
     fetchTickets().then(setTickets);
@@ -159,7 +159,7 @@ export function App() {
               </select>
             </div>
 
-            {/* NOTE (course): the list renders unconditionally — no loading, empty,
+            {/* NOTE (course): the list renders unconditionally - no loading, empty,
                 or error branch. Demo D2 adds them. */}
             <TicketList tickets={filteredTickets} onOpen={setSelected} />
           </section>
