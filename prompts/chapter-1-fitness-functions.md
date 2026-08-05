@@ -5,7 +5,7 @@ Copy-paste prompts for the hands-on movies in this chapter. Each prompt works th
 > Reset an app to its starting state between exercises with `git restore . && git clean -fd` from inside the app folder. Run `npm install` once per app before its first exercise.
 
 
-## 1.3 - Turn your quality bar into a fitness function
+## 1.2 - Turn your quality bar into a fitness function
 
 **App:** `demos/helpdesk-ai`
 

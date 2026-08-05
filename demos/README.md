@@ -107,7 +107,7 @@ There are no per-movie *start* folders: `helpdesk-ai` is the single clean start 
 
 | Folder | Script | Final state adds |
 | --- | --- | --- |
-| `1.3-fitness` | `01-fitness-function` | Architecture fitness function; boundary violation removed |
+| `1.2-fitness` | `01-fitness-function` | Architecture fitness function; boundary violation removed |
 | `2.2-verify-ux` | `02-verify-experience` | Loading / empty / error states; submit error + retry |
 | `3.2-perf-profile` | `03-performance-profile` | Responsive hero, code-split panel, memoized work |
 | `3.3-perf-budget` | `04-performance-budgets` | Bundle-size budget gate |
