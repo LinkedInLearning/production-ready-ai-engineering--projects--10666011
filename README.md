@@ -93,10 +93,10 @@ Technical Evangelism, where he helped launch Google's agent developer platform (
 Agent CLI, and Agent Studio). Earlier he led Chrome's Developer Experience, working on DevTools,
 Lighthouse, and Core Web Vitals.
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/addy-osmani).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/production-ready-ai-engineering
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQGwwakfncY_2g/learning-public-crop_675_1200/B56Z9s262lH4Ag-/0/1784237764741?e=2147483647&v=beta&t=UGQfCu0mbFZf2GorNMELDG67m4Gi716qd38ByGwhAO0
