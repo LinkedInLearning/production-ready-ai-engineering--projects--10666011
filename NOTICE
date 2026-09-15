@@ -1,15 +1,5772 @@
-Copyright 2025 LinkedIn Corporation
+Copyright 2026 LinkedIn Corporation
 All Rights Reserved.
 
-Licensed under the LinkedIn Learning Exercise File License (the "License").
-See LICENSE in the project root for license information.
+Licensed under the LinkedIn Learning Exercise File License (the "License"). See LICENSE in the project root for license information.
+
+Please note, this project may automatically load third party code from external repositories (for example, NPM modules, Composer packages, GitHub Actions, or other dependencies). If so, such third party code may be subject to other license terms than as set forth above. In addition, such third party code may also depend on and load multiple tiers of dependencies. Please review the applicable licenses of the additional dependencies below.
 
 ATTRIBUTIONS:
-[PLEASE PROVIDE ATTRIBUTIONS OR DELETE THIS AND THE ABOVE LINE “ATTRIBUTIONS”]
 
-Please note, this project may automatically load third party code from external 
-repositories (for example, NPM modules, Composer packages, or other dependencies). 
-If so, such third party code may be subject to other license terms than as set 
-forth above. In addition, such third party code may also depend on and load 
-multiple tiers of dependencies. Please review the applicable licenses of the 
-additional dependencies.
+@ampproject/remapping
+
+https://github.com/ampproject/remapping
+
+Copyright (c) Justin Ridgewell
+
+License:Apache-2.0
+
+@lhci/cli
+
+https://github.com/GoogleChrome/lighthouse-ci
+
+Copyright (c) 2019 Google Inc., Copyright 2020 Google Inc., Copyright 2021 Google Inc.
+
+License:Apache-2.0
+
+@lhci/utils
+
+https://github.com/GoogleChrome/lighthouse-ci
+
+Copyright (c) 2019 Google Inc., Copyright 2019 Google LLC
+
+License:Apache-2.0
+
+@puppeteer/browsers
+
+https://github.com/puppeteer/puppeteer.git#main
+
+Copyright (c) 2017 Google Inc., Copyright 2023 Google Inc.
+
+License:Apache-2.0
+
+@stryker-mutator/api
+
+https://github.com/stryker-mutator/stryker-js
+
+Copyright (c) Stryker Mutator Contributors
+
+License:Apache-2.0
+
+@stryker-mutator/core
+
+https://github.com/stryker-mutator/stryker-js
+
+Copyright (c) Simon de Lang
+
+License:Apache-2.0
+
+@stryker-mutator/instrumenter
+
+https://github.com/stryker-mutator/stryker-js
+
+Copyright (c) Nico Jansen
+
+License:Apache-2.0
+
+@stryker-mutator/util
+
+https://github.com/stryker-mutator/stryker-js
+
+Copyright (c) Nico Jansen
+
+License:Apache-2.0
+
+@stryker-mutator/vitest-runner
+
+https://github.com/stryker-mutator/stryker-js
+
+Copyright (c) Odin van der Linden
+
+License:Apache-2.0
+
+b4a
+
+https://github.com/holepunchto/b4a
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+bare-events
+
+https://github.com/holepunchto/bare-events
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+bare-fs
+
+https://github.com/holepunchto/bare-fs
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+bare-path
+
+https://github.com/holepunchto/bare-path
+
+Copyright (c) 2023 Holepunch Inc, Copyright Joyent, Inc. and other Node contributors
+
+License:Apache-2.0
+
+bare-stream
+
+https://github.com/holepunchto/bare-stream
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+bare-url
+
+https://github.com/holepunchto/bare-url
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+baseline-browser-mapping
+
+https://github.com/web-platform-dx/baseline-browser-mapping
+
+Copyright (c) Baseline Browser Mapping Contributors
+
+License:Apache-2.0
+
+chrome-launcher
+
+https://github.com/GoogleChrome/chrome-launcher
+
+Copyright (c) 2014 Google Inc., Copyright 2016 Google Inc., Copyright 2017 Google Inc.
+
+License:Apache-2.0
+
+chrome-launcher
+
+https://github.com/GoogleChrome/chrome-launcher
+
+Copyright (c) 2014 Google Inc., Copyright 2016 Google Inc., Copyright 2017 Google Inc., Copyright 2021 Google Inc.
+
+License:Apache-2.0
+
+chromium-bidi
+
+https://github.com/GoogleChromeLabs/chromium-bidi
+
+Copyright (c) 2020 Colin McDonnell, Copyright (c) 2021 Jason Miller, Copyright (c) Microsoft Corporation, Copyright 2020 Intel Corporation, Copyright 2021 Google LLC., Copyright 2022 Google LLC., Copyright 2022 The Chromium Authors, Copyright 2023 Google LLC., Copyright 2024 Google LLC.
+
+License:Apache-2.0
+
+csp_evaluator
+
+https://github.com/google/csp-evaluator
+
+Copyright (c) 2016 Google Inc.
+
+License:Apache-2.0
+
+diff-match-patch
+
+https://github.com/JackuB/diff-match-patch
+
+Copyright (c) 2018, Copyright 2018 The diff-match-patch
+
+License:Apache-2.0
+
+events-universal
+
+https://github.com/holepunchto/events-universal
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+human-signals
+
+https://github.com/ehmicky/human-signals
+
+Copyright (c) 2022 ehmicky <ehmicky@gmail.com>
+
+License:Apache-2.0
+
+human-signals
+
+https://github.com/ehmicky/human-signals
+
+Copyright (c) 2025 ehmicky <ehmicky@gmail.com>
+
+License:Apache-2.0
+
+lighthouse
+
+https://github.com/GoogleChrome/lighthouse
+
+Copyright (c) 2012 Google Inc., Copyright 2014 The Chromium Authors, Copyright 2016 Google LLC, Copyright 2016 The Chromium Authors, Copyright 2017 Google LLC, Copyright 2018 Google LLC, Copyright 2019 Google LLC, Copyright 2019 The Lighthouse Authors, Copyright 2020 Google LLC, Copyright 2021 Google LLC, Copyright 2021 The Chromium Authors, Copyright 2022 Google LLC, Copyright 2023 Google LLC, Copyright 2023 The Chromium Authors, Copyright 2023 The Lighthouse Authors, Copyright 2024 Google LLC, Copyright 2024 The Lighthouse Authors
+
+License:Apache-2.0
+
+lighthouse-logger
+
+https://github.com/GoogleChrome/lighthouse
+
+Copyright (c) 2014 Google Inc., Copyright 2016 Google Inc.
+
+License:Apache-2.0
+
+lighthouse-logger
+
+https://github.com/GoogleChrome/lighthouse
+
+Copyright (c) 2014 Google Inc., Copyright 2016 Google LLC
+
+License:Apache-2.0
+
+lighthouse-stack-packs
+
+https://github.com/GoogleChrome/lighthouse-stack-packs
+
+Copyright (c) 2020 The Lighthouse Authors
+
+License:Apache-2.0
+
+marky
+
+https://github.com/nolanlawson/marky
+
+Copyright (c) 2016 Nolan Lawson
+
+License:Apache-2.0
+
+mutation-testing-elements
+
+https://github.com/stryker-mutator/mutation-testing-elements
+
+Copyright (c) 2017 Google LLC, Copyright 2018 Google LLC, Copyright 2019 Google LLC, Copyright 2020 Google LLC, Copyright 2021 Google LLC
+
+License:Apache-2.0
+
+mutation-testing-metrics
+
+https://github.com/stryker-mutator/mutation-testing-elements
+
+Copyright (c) Stryker Mutator Contributors
+
+License:Apache-2.0
+
+mutation-testing-report-schema
+
+https://github.com/stryker-mutator/mutation-testing-elements
+
+Copyright (c) Stryker Mutator Contributors
+
+License:Apache-2.0
+
+puppeteer-core
+
+https://github.com/puppeteer/puppeteer.git#main
+
+Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors, Copyright (c) 2020 Lea Verou, Copyright (c) 2021 Jason Miller, Copyright 2017 Google Inc., Copyright 2018 Google Inc., Copyright 2019 Google Inc., Copyright 2020 Google Inc., Copyright 2021 Google Inc., Copyright 2022 Google Inc., Copyright 2023 Google Inc., Copyright 2024 Google Inc.
+
+License:Apache-2.0
+
+rxjs
+
+https://github.com/reactivex/rxjs
+
+Copyright (c) (c) Sa (c), Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors, Copyright (c) Microsoft Corporation, Copyright Google Inc.
+
+License:Apache-2.0
+
+rxjs
+
+https://github.com/reactivex/rxjs
+
+Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors, Copyright (c) Microsoft Corporation
+
+License:Apache-2.0
+
+text-decoder
+
+https://github.com/holepunchto/text-decoder
+
+Copyright (c) Holepunch
+
+License:Apache-2.0
+
+typed-inject
+
+https://github.com/nicojs/typed-inject
+
+Copyright (c) Nico Jansen
+
+License:Apache-2.0
+
+typescript
+
+https://github.com/microsoft/TypeScript
+
+Copyright (c) (c) by W3C, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG, Copyright (c) 2018 WHATWG Apple, Google, Mozilla, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers
+
+License:Apache-2.0
+
+weapon-regex
+
+https://github.com/stryker-mutator/weapon-regex
+
+Copyright (c) Stryker Mutator Contributors
+
+License:Apache-2.0
+
+@anthropic-ai/sdk
+
+https://github.com/anthropics/anthropic-sdk-typescript
+
+Copyright (c) Anthropic
+
+License:MIT
+
+@babel/code-frame
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/compat-data
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/core
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors, Copyright (c) 2021 Titus Wormer, Copyright Joyent, Inc. and other Node contributors
+
+License:MIT
+
+@babel/core
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors, Copyright (c) 2021 Titus Wormer, Copyright Joyent, Inc. and other Node contributors, Copyright Node.js contributors
+
+License:MIT
+
+@babel/generator
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/generator
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-annotate-as-pure
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-compilation-targets
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-create-class-features-plugin
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-globals
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-member-expression-to-functions
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-module-imports
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-module-transforms
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-optimise-call-expression
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-plugin-utils
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-replace-supers
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-skip-transparent-expression-wrappers
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-string-parser
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-validator-identifier
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helper-validator-option
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/helpers
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors, Copyright (c) 2014-present, Facebook, Inc.
+
+License:MIT
+
+@babel/parser
+
+https://github.com/babel/babel
+
+Copyright (c) 2012-2014 by various contributors
+
+License:MIT
+
+@babel/parser
+
+https://github.com/babel/babel
+
+Copyright (c) 2012-2014 by various contributors
+
+License:MIT
+
+@babel/plugin-proposal-decorators
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-proposal-explicit-resource-management
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-syntax-decorators
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-syntax-jsx
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-syntax-typescript
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-transform-destructuring
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-transform-modules-commonjs
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-transform-react-jsx-self
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/plugin-transform-react-jsx-source
+
+https://github.com/babel/babel
+
+Copyright (c) The Babel Team (https://babel.dev/team)
+
+License:MIT
+
+@babel/plugin-transform-typescript
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/preset-typescript
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/template
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/traverse
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@babel/types
+
+https://github.com/babel/babel
+
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+
+License:MIT
+
+@esbuild/aix-ppc64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/aix-ppc64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/android-arm
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2018 The Go Authors, Copyright 2021 The Go Authors
+
+License:MIT
+
+@esbuild/android-arm
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2018 The Go Authors, Copyright 2021 The Go Authors
+
+License:MIT
+
+@esbuild/android-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/android-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/android-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2018 The Go Authors, Copyright 2021 The Go Authors
+
+License:MIT
+
+@esbuild/android-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2018 The Go Authors, Copyright 2021 The Go Authors
+
+License:MIT
+
+@esbuild/darwin-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/darwin-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/darwin-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/darwin-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/freebsd-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/freebsd-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/freebsd-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/freebsd-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-arm
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-arm
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-ia32
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-ia32
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-loong64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-loong64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-mips64el
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-mips64el
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-ppc64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-ppc64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-riscv64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-riscv64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-s390x
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-s390x
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/linux-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/netbsd-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/netbsd-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/netbsd-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/openbsd-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/openbsd-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/openbsd-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/openharmony-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2018 The Go Authors, Copyright 2021 The Go Authors
+
+License:MIT
+
+@esbuild/sunos-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/sunos-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/win32-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/win32-arm64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/win32-ia32
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/win32-ia32
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/win32-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@esbuild/win32-x64
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+@fastify/ajv-compiler
+
+https://github.com/fastify/ajv-compiler
+
+Copyright (c) The Fastify Team
+
+License:MIT
+
+@fastify/cors
+
+https://github.com/fastify/fastify-cors
+
+Copyright (c) 2018 Fastify
+
+License:MIT
+
+@fastify/error
+
+https://github.com/fastify/fastify-error
+
+Copyright (c) 2020 Fastify
+
+License:MIT
+
+@fastify/fast-json-stringify-compiler
+
+https://github.com/fastify/fast-json-stringify-compiler
+
+Copyright (c) 2022 Fastify
+
+License:MIT
+
+@fastify/merge-json-schemas
+
+https://github.com/fastify/merge-json-schemas
+
+Copyright (c) 2024 Fastify
+
+License:MIT
+
+@formatjs/ecma402-abstract
+
+ssh://git@github.com/formatjs/formatjs
+
+Copyright (c) 2023 FormatJS
+
+License:MIT
+
+@formatjs/fast-memoize
+
+formatjs/formatjs
+
+Copyright (c) 2023 FormatJS
+
+License:MIT
+
+@formatjs/icu-messageformat-parser
+
+https://github.com/formatjs/formatjs
+
+Copyright (c) 2023 FormatJS
+
+License:MIT
+
+@formatjs/icu-skeleton-parser
+
+https://github.com/formatjs/formatjs
+
+Copyright (c) 2023 FormatJS
+
+License:MIT
+
+@formatjs/intl-localematcher
+
+formatjs/formatjs
+
+Copyright (c) 2023 FormatJS
+
+License:MIT
+
+@inquirer/checkbox
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/confirm
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/core
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/editor
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/expand
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/figures
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2025 Simon Boudrias
+
+License:MIT
+
+@inquirer/input
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/number
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/password
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/prompts
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/rawlist
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/search
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2024 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/select
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias, Copyright (c) 2023 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+@inquirer/type
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2023 Simon Boudrias
+
+License:MIT
+
+@jest/schemas
+
+https://github.com/jestjs/jest
+
+Copyright (c) Meta Platforms, Inc. and affiliates
+
+License:MIT
+
+@jridgewell/gen-mapping
+
+https://github.com/jridgewell/sourcemaps
+
+Copyright (c) 2024 Justin Ridgewell <justin@ridgewell.name>
+
+License:MIT
+
+@jridgewell/remapping
+
+https://github.com/jridgewell/sourcemaps
+
+Copyright (c) 2024 Justin Ridgewell <justin@ridgewell.name>
+
+License:MIT
+
+@jridgewell/resolve-uri
+
+https://github.com/jridgewell/resolve-uri
+
+Copyright (c) 2019 Justin Ridgewell <jridgewell@google.com>
+
+License:MIT
+
+@jridgewell/sourcemap-codec
+
+https://github.com/jridgewell/sourcemaps
+
+Copyright (c) 2024 Justin Ridgewell <justin@ridgewell.name>
+
+License:MIT
+
+@jridgewell/trace-mapping
+
+https://github.com/jridgewell/sourcemaps
+
+Copyright (c) 2024 Justin Ridgewell <justin@ridgewell.name>
+
+License:MIT
+
+@paulirish/trace_engine
+
+https://www.npmjs.com/package/@paulirish/trace_engine
+
+Copyright (c) 2006, 2007, 2008 Apple Inc., Copyright (c) 2007 Matt Lilek (pewtermoose@gmail.com), Copyright (c) 2009 Joseph Pecoraro, Copyright (c) 2011 Google Inc., Copyright (c) 2019 Google Inc., Copyright (c) 2020 The Chromium Authors, Copyright 2014 The Chromium Authors, Copyright 2016 The Chromium Authors, Copyright 2020 The Chromium Authors, Copyright 2021 The Chromium Authors, Copyright 2022 The Chromium Authors, Copyright 2023 The Chromium Authors, Copyright 2024 The Chromium Authors
+
+License:BSD-3-Clause
+
+@pinojs/redact
+
+https://github.com/pinojs/redact
+
+Copyright (c) 2025 pinojs contributors
+
+License:MIT
+
+@rolldown/pluginutils
+
+https://github.com/rolldown/plugins
+
+Copyright (c) 2024-present VoidZero Inc. & Contributors
+
+License:MIT
+
+@rollup/rollup-android-arm-eabi
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-android-arm64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-darwin-arm64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-darwin-x64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-freebsd-arm64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-freebsd-x64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-arm-gnueabihf
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-arm-musleabihf
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-arm64-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-arm64-musl
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-loong64-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-loong64-musl
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-ppc64-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-ppc64-musl
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-riscv64-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-riscv64-musl
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-s390x-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-x64-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-linux-x64-musl
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-openbsd-x64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-openharmony-arm64
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-win32-arm64-msvc
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-win32-ia32-msvc
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-win32-x64-gnu
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@rollup/rollup-win32-x64-msvc
+
+https://github.com/rollup/rollup
+
+Copyright (c) Lukas Taegert-Atkinson
+
+License:MIT
+
+@sec-ant/readable-stream
+
+https://github.com/Sec-ant/readable-stream
+
+Copyright (c) 2022 Ze-Zheng Wu
+
+License:MIT
+
+@sentry/core
+
+https://github.com/getsentry/sentry-javascript
+
+Copyright (c) 2019, Sentry
+
+License:BSD-3-Clause
+
+@sentry/hub
+
+https://github.com/getsentry/sentry-javascript
+
+Copyright (c) 2019, Sentry
+
+License:BSD-3-Clause
+
+@sentry/minimal
+
+https://github.com/getsentry/sentry-javascript
+
+Copyright (c) 2019, Sentry
+
+License:BSD-3-Clause
+
+@sentry/node
+
+https://github.com/getsentry/sentry-javascript
+
+Copyright (c) 2019, Sentry
+
+License:BSD-3-Clause
+
+@sentry/types
+
+https://github.com/getsentry/sentry-javascript
+
+Copyright (c) 2019, Sentry
+
+License:BSD-3-Clause
+
+@sentry/utils
+
+https://github.com/getsentry/sentry-javascript
+
+Copyright (c) 2019, Sentry
+
+License:BSD-3-Clause
+
+@sinclair/typebox
+
+https://github.com/sinclairzx81/sinclair-typebox
+
+Copyright (c) 2017-2023 Haydn Paterson (sinclair) <haydn.developer@gmail.com>
+
+License:MIT
+
+@sindresorhus/merge-streams
+
+https://github.com/sindresorhus/merge-streams
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+@size-limit/file
+
+https://github.com/ai/size-limit
+
+Copyright (c) 2017 Andrey Sitnik <andrey@sitnik.ru>
+
+License:MIT
+
+@tootallnate/quickjs-emscripten
+
+https://github.com/justjake/quickjs-emscripten
+
+Copyright (c) 2019 Jake Teton-Landis
+
+License:MIT
+
+@types/babel__core
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/babel__generator
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/babel__template
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/babel__traverse
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/estree
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/mute-stream
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/node
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation, Copyright Node.js contributors
+
+License:MIT
+
+@types/node
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation, Copyright Node.js contributors
+
+License:MIT
+
+@types/node-fetch
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/prop-types
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/react
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/react-dom
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/wrap-ansi
+
+https://www.npmjs.com/package/@types/wrap-ansi
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@types/yauzl
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Copyright (c) Microsoft Corporation
+
+License:MIT
+
+@vitejs/plugin-react
+
+https://github.com/vitejs/vite-plugin-react
+
+Copyright (c) 2019-present, Yuxi, Copyright (c) Meta Platforms, Inc. and affiliates
+
+License:MIT
+
+@vitest/expect
+
+https://github.com/vitest-dev/vitest
+
+Copyright (c) 2021-Present Vitest Team, Copyright (c) Facebook, Inc. and its affiliates
+
+License:MIT
+
+@vitest/runner
+
+https://github.com/vitest-dev/vitest
+
+Copyright (c) 2021-Present Vitest Team
+
+License:MIT
+
+@vitest/snapshot
+
+https://github.com/vitest-dev/vitest
+
+Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2021-Present Vitest Team, Copyright (c) Facebook, Inc. and its affiliates, Copyright 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Simon Lydell
+
+License:MIT
+
+@vitest/spy
+
+https://github.com/vitest-dev/vitest
+
+Copyright (c) 2021-Present Vitest Team
+
+License:MIT
+
+@vitest/utils
+
+https://github.com/vitest-dev/vitest
+
+Copyright (c) 2021-Present Vitest Team, Copyright (c) Meta Platforms, Inc. and affiliates, Copyright 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Simon Lydell, Copyright 2018 The diff-match-patch
+
+License:MIT
+
+abort-controller
+
+https://github.com/mysticatea/abort-controller
+
+Copyright (c) 2017 Toru Nagashima, copyright 2015 Toru Nagashima
+
+License:MIT
+
+abstract-logging
+
+https://github.com/jsumners/abstract-logging
+
+Copyright (c) James Sumners
+
+License:MIT
+
+accepts
+
+https://github.com/jshttp/accepts
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+acorn
+
+https://github.com/acornjs/acorn
+
+Copyright (c) 2012-2022 by various contributors
+
+License:MIT
+
+acorn-walk
+
+https://github.com/acornjs/acorn
+
+Copyright (c) 2012-2020 by various contributors
+
+License:MIT
+
+agent-base
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+agent-base
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+agentkeepalive
+
+https://github.com/node-modules/agentkeepalive
+
+Copyright (c) 2012 - 2015 fengmk2 <fengmk2@gmail.com>, Copyright (c) node-modules and other contributors
+
+License:MIT
+
+ajv
+
+https://github.com/ajv-validator/ajv
+
+Copyright (c) 2015-2021 Evgeny Poberezkin
+
+License:MIT
+
+ajv
+
+https://github.com/ajv-validator/ajv
+
+Copyright (c) 2015-2021 Evgeny Poberezkin
+
+License:MIT
+
+ajv-formats
+
+https://github.com/ajv-validator/ajv-formats
+
+Copyright (c) 2020 Evgeny Poberezkin
+
+License:MIT
+
+ajv-formats
+
+https://github.com/ajv-validator/ajv-formats
+
+Copyright (c) 2020 Evgeny Poberezkin
+
+License:MIT
+
+angular-html-parser
+
+https://github.com/prettier/angular-html-parser
+
+Copyright (c) 2014-2018 Google, Inc. http://angular.io, Copyright (c) Ika <ikatyang@gmail.com> (https://github.com/ikatyang), Copyright Google LLC
+
+License:MIT
+
+ansi-colors
+
+https://github.com/doowb/ansi-colors
+
+Copyright (c) 2015-present, Brian Woodward, Copyright (c) 2019, Brian Woodward (https://github.com/doowb)
+
+License:MIT
+
+ansi-escapes
+
+https://github.com/sindresorhus/ansi-escapes
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ansi-escapes
+
+https://github.com/sindresorhus/ansi-escapes
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+ansi-regex
+
+https://github.com/chalk/ansi-regex
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ansi-regex
+
+https://github.com/chalk/ansi-regex
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ansi-regex
+
+https://github.com/chalk/ansi-regex
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ansi-styles
+
+https://github.com/chalk/ansi-styles
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ansi-styles
+
+https://github.com/chalk/ansi-styles
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ansi-styles
+
+https://github.com/chalk/ansi-styles
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+argparse
+
+https://github.com/nodeca/argparse
+
+Copyright (c) 2012 by Vitaly Puzrin, Copyright (c) 2012 Vitaly Puzrin (https://github.com/puzrin)
+
+License:MIT
+
+array-flatten
+
+https://github.com/blakeembrey/array-flatten
+
+Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+
+License:MIT
+
+assertion-error
+
+ssh://git@github.com/chaijs/assertion-error
+
+Copyright (c) 2013 Jake Luer <jake@qualiancy.com>, Copyright (c) 2013 Jake Luer <jake@qualiancy.com> (http://qualiancy.com)
+
+License:MIT
+
+ast-types
+
+https://github.com/benjamn/ast-types
+
+Copyright (c) 2013 Ben Newman <bn@cs.stanford.edu>
+
+License:MIT
+
+asynckit
+
+https://github.com/alexindigo/asynckit
+
+Copyright (c) 2016 Alex Indigo
+
+License:MIT
+
+atomic-sleep
+
+https://github.com/davidmarkclements/atomic-sleep
+
+Copyright (c) 2020 David Mark Clements
+
+License:MIT
+
+avvio
+
+https://github.com/fastify/avvio
+
+Copyright (c) 2016-2020 Matteo Collina, Copyright (c) 2020-2023 The Fastify Team, Copyright Matteo Collina 2016-2020
+
+License:MIT
+
+balanced-match
+
+https://github.com/juliangruber/balanced-match
+
+Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+
+License:MIT
+
+base64-js
+
+https://github.com/beatgammit/base64-js
+
+Copyright (c) 2014 Jameson Little
+
+License:MIT
+
+basic-ftp
+
+https://github.com/patrickjuchli/basic-ftp
+
+Copyright (c) 2019 Patrick Juchli
+
+License:Apache-2.0 AND MIT
+
+body-parser
+
+https://github.com/expressjs/body-parser
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+body-parser
+
+https://github.com/expressjs/body-parser
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+brace-expansion
+
+https://github.com/juliangruber/brace-expansion
+
+Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+
+License:MIT
+
+brace-expansion
+
+https://github.com/juliangruber/brace-expansion
+
+Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+
+License:MIT
+
+browserslist
+
+https://github.com/browserslist/browserslist
+
+Copyright (c) 2014 Andrey Sitnik <andrey@sitnik.es> and other contributors
+
+License:MIT
+
+buffer
+
+https://github.com/feross/buffer
+
+Copyright (c) Feross Aboukhadijeh (http://feross.org), and other contributors, Copyright (c) Feross Aboukhadijeh, and other contributors
+
+License:MIT
+
+buffer-crc32
+
+https://github.com/brianloveswords/buffer-crc32
+
+Copyright (c) 2013 Brian J. Brennan
+
+License:MIT
+
+bytes
+
+https://github.com/visionmedia/bytes.js
+
+Copyright (c) 2012-2014 TJ Holowaychuk, Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2015 Jed Watson, Copyright (c) 2015 Jed Watson <jed.watson@me.com>
+
+License:MIT
+
+bytes
+
+https://github.com/visionmedia/bytes.js
+
+Copyright (c) 2012-2014 TJ Holowaychuk, Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2015 Jed Watson, Copyright (c) 2015 Jed Watson <jed.watson@me.com>
+
+License:MIT
+
+bytes-iec
+
+https://github.com/Saevon/bytes.js
+
+Copyright (c) 2012-2014 TJ Holowaychuk, Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2015 Jed Watson, Copyright (c) 2015 Jed Watson <jed.watson@me.com>, Copyright (c) 2018 Saevon <serghei.filippov@gmail.com>
+
+License:MIT
+
+cac
+
+https://github.com/cacjs/cac
+
+Copyright (c) (c) EGOIST (https://github.com/egoist), Copyright (c) EGOIST
+
+License:MIT
+
+call-bind-apply-helpers
+
+https://github.com/ljharb/call-bind-apply-helpers
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+call-bound
+
+https://github.com/ljharb/call-bound
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+camelcase
+
+https://github.com/sindresorhus/camelcase
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+caniuse-lite
+
+https://github.com/browserslist/caniuse-lite
+
+Copyright (c) Ben Briggs
+
+License:CC-BY-4.0
+
+chai
+
+https://github.com/chaijs/chai
+
+Copyright (c) 2011 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2011-2014 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2011-2016 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2012-2014 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2012-2014 Jake Luer <jake@alogicalparadox.com> https://github.com/logicalparadox/filtr, Copyright (c) 2012-2015 Sakthipriyan Vairamani <thechargingvolcano@gmail.com>, Copyright (c) 2012-2016 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@qualiancy.com>, Copyright (c) 2017 Chai.js Assertion, Copyright (c) 2017 Chai.js Assertion Library
+
+License:MIT
+
+chalk
+
+https://github.com/chalk/chalk
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+chalk
+
+https://github.com/chalk/chalk
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+chalk
+
+https://github.com/chalk/chalk
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+chardet
+
+https://github.com/runk/node-chardet
+
+Copyright (c) 2018 Dmitry Shirokov
+
+License:MIT
+
+check-error
+
+ssh://git@github.com/chaijs/check-error
+
+Copyright (c) 2012-2016 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)
+
+License:MIT
+
+chokidar
+
+https://github.com/paulmillr/chokidar
+
+Copyright (c) (c) 2012 Paul Miller (paulmillr.com), (c) Paul Miller, (c) Paul Miller <https://paulmillr.com>, Copyright (c) 2012 Paul Miller (https://paulmillr.com), Elan Shanker
+
+License:MIT
+
+cli-cursor
+
+https://github.com/sindresorhus/cli-cursor
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+cli-width
+
+ssh://git@github.com/knownasilya/cli-width
+
+Copyright (c) 2015, Ilya Radchenko <ilya@burstcreations.com>
+
+License:ISC
+
+cli-width
+
+ssh://git@github.com/knownasilya/cli-width
+
+Copyright (c) 2015, Ilya Radchenko <knownasilya@gmail.com>
+
+License:ISC
+
+cliui
+
+https://github.com/yargs/cliui
+
+Copyright (c) 2015, Contributors
+
+License:ISC
+
+cliui
+
+https://github.com/yargs/cliui
+
+Copyright (c) 2015, Contributors, Copyright (c) npm, Inc. and Contributors
+
+License:ISC
+
+color-convert
+
+https://github.com/Qix-/color-convert
+
+Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>, Copyright (c) 2011-2016, Heather Arthur and Josh Junon, Copyright (c) 2011-2016, Heather Arthur and Josh Junon.
+
+License:MIT
+
+color-convert
+
+https://github.com/Qix-/color-convert
+
+Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>, Copyright (c) 2011-2016, Heather Arthur and Josh Junon
+
+License:MIT
+
+color-name
+
+https://github.com/colorjs/color-name
+
+Copyright (c) 2015 Dmitry Ivanov
+
+License:MIT
+
+color-name
+
+https://github.com/colorjs/color-name
+
+Copyright (c) 2015 Dmitry Ivanov
+
+License:MIT
+
+combined-stream
+
+https://github.com/felixge/node-combined-stream
+
+Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
+
+License:MIT
+
+commander
+
+https://github.com/tj/commander.js
+
+Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
+
+License:MIT
+
+compressible
+
+https://github.com/jshttp/compressible
+
+Copyright (c) 2013 Jonathan Ong, Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Jeremiah Senkpiel, Copyright (c) 2014 Jeremiah Senkpiel <fishrock123@rocketmail.com>, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+compression
+
+https://github.com/expressjs/compression
+
+Copyright (c) 2010 Sencha Inc., Copyright (c) 2011 TJ Holowaychuk, Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+concat-map
+
+https://github.com/ljharb/concat-map
+
+Copyright (c) James Halliday
+
+License:MIT
+
+concurrently
+
+https://github.com/open-cli-tools/concurrently
+
+Copyright (c) 2015 Kimmo Brunfeldt
+
+License:MIT
+
+confbox
+
+unjs/confbox
+
+Copyright (c) 2011-2015 by Vitaly Puzrin, Copyright (c) 2012-2018 Aseem Kishore, and others (https://github.com/json5/json5/graphs/contributors), Copyright (c) Microsoft, Copyright (c) Pooya Parsa <pooya@pi0.io>, Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright (c) Squirrel Chat et al, Copyright (c) Squirrel Chat et al., All rights reserved.
+
+License:BSD-3-Clause AND MIT
+
+configstore
+
+https://github.com/sindresorhus/configstore
+
+Copyright (c) Google
+
+License:BSD-2-Clause
+
+content-disposition
+
+https://github.com/jshttp/content-disposition
+
+Copyright (c) 2014 Douglas Christopher Wilson
+
+License:MIT
+
+content-disposition
+
+https://github.com/jshttp/content-disposition
+
+Copyright (c) 2014-2017 Douglas Christopher Wilson
+
+License:MIT
+
+content-type
+
+https://github.com/jshttp/content-type
+
+Copyright (c) 2015 Douglas Christopher Wilson
+
+License:MIT
+
+convert-source-map
+
+https://github.com/thlorenz/convert-source-map
+
+Copyright (c) 2013 Thorsten Lorenz
+
+License:MIT
+
+cookie
+
+https://github.com/jshttp/cookie
+
+Copyright (c) 2012-2014 Roman Shtylman, Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+cookie
+
+https://github.com/jshttp/cookie
+
+Copyright (c) 2012-2014 Roman Shtylman, Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+cookie
+
+https://github.com/jshttp/cookie
+
+Copyright (c) 2012-2014 Roman Shtylman, Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+cookie-signature
+
+https://github.com/visionmedia/node-cookie-signature
+
+Copyright (c) 2012 LearnBoost <tj@learnboost.com>
+
+License:MIT
+
+cookie-signature
+
+https://github.com/visionmedia/node-cookie-signature
+
+Copyright (c) 2012 LearnBoost <tj@learnboost.com>
+
+License:MIT
+
+cross-spawn
+
+ssh://git@github.com/moxystudio/node-cross-spawn
+
+Copyright (c) 2018 Made With MOXY Lda
+
+License:MIT
+
+crypto-random-string
+
+https://github.com/sindresorhus/crypto-random-string
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+csstype
+
+https://github.com/frenic/csstype
+
+Copyright (c) 2017-2018 Fredrik Nicol
+
+License:MIT
+
+data-uri-to-buffer
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+debug
+
+https://github.com/debug-js/debug
+
+Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2014-2016 TJ Holowaychuk <tj@vision-media.ca>
+
+License:MIT
+
+debug
+
+https://github.com/debug-js/debug
+
+Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2018-2021 Josh Junon
+
+License:MIT
+
+decamelize
+
+https://github.com/sindresorhus/decamelize
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+decimal.js
+
+https://github.com/MikeMcl/decimal.js
+
+Copyright (c) 2025 Michael Mclaughlin, Copyright (c) 2025 Michael Mclaughlin <M8ch88l@gmail.com>
+
+License:MIT
+
+deep-eql
+
+ssh://git@github.com/chaijs/deep-eql
+
+Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)
+
+License:MIT
+
+define-lazy-prop
+
+https://github.com/sindresorhus/define-lazy-prop
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+degenerator
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+delayed-stream
+
+https://github.com/felixge/node-delayed-stream
+
+Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
+
+License:MIT
+
+depd
+
+https://github.com/dougwilson/nodejs-depd
+
+Copyright (c) 2014 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2017 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson
+
+License:MIT
+
+depd
+
+https://github.com/dougwilson/nodejs-depd
+
+Copyright (c) 2014-2018 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson
+
+License:MIT
+
+des.js
+
+ssh://git@github.com/indutny/des.js
+
+Copyright (c) Fedor Indutny, 2015
+
+License:MIT
+
+destroy
+
+https://github.com/stream-utils/destroy
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+
+License:MIT
+
+destroy
+
+https://github.com/stream-utils/destroy
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong me@jongleberry.com, Copyright (c) 2015-2022 Douglas Christopher Wilson, Copyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com
+
+License:MIT
+
+devtools-protocol
+
+https://github.com/ChromeDevTools/devtools-protocol
+
+Copyright (c) 2014 The Chromium Authors, Copyright 2017 The Chromium Authors
+
+License:BSD-3-Clause
+
+diff-sequences
+
+https://github.com/jestjs/jest
+
+Copyright (c) Meta Platforms, Inc. and affiliates
+
+License:MIT
+
+dot-prop
+
+https://github.com/sindresorhus/dot-prop
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+dunder-proto
+
+https://github.com/es-shims/dunder-proto
+
+Copyright (c) 2024 ECMAScript Shims
+
+License:MIT
+
+ee-first
+
+https://github.com/jonathanong/ee-first
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+
+License:MIT
+
+electron-to-chromium
+
+https://github.com/Kilian/electron-to-chromium
+
+Copyright (c) 2018 Kilian Valkhof
+
+License:ISC
+
+emoji-regex
+
+https://github.com/mathiasbynens/emoji-regex
+
+Copyright (c) Mathias Bynens <https://mathiasbynens.be/>
+
+License:MIT
+
+emoji-regex
+
+https://github.com/mathiasbynens/emoji-regex
+
+Copyright (c) Mathias Bynens <https://mathiasbynens.be/>, Copyright Mathias Bynens https://mathiasbynens.be
+
+License:MIT
+
+encodeurl
+
+https://github.com/pillarjs/encodeurl
+
+Copyright (c) 2016 Douglas Christopher Wilson
+
+License:MIT
+
+encodeurl
+
+https://github.com/pillarjs/encodeurl
+
+Copyright (c) 2016 Douglas Christopher Wilson
+
+License:MIT
+
+end-of-stream
+
+https://github.com/mafintosh/end-of-stream
+
+Copyright (c) 2014 Mathias Buus
+
+License:MIT
+
+enquirer
+
+https://github.com/enquirer/enquirer
+
+Copyright (c) 2016-present, Jon Schlinkert, Copyright (c) 2018-present, Jon Schlinkert (https://github.com/jonschlinkert)
+
+License:MIT
+
+es-define-property
+
+https://github.com/ljharb/es-define-property
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+es-errors
+
+https://github.com/ljharb/es-errors
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+es-object-atoms
+
+https://github.com/ljharb/es-object-atoms
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+es-set-tostringtag
+
+https://github.com/es-shims/es-set-tostringtag
+
+Copyright (c) 2022 ECMAScript Shims
+
+License:MIT
+
+esbuild
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+esbuild
+
+https://github.com/evanw/esbuild
+
+Copyright (c) 2020 Evan Wallace
+
+License:MIT
+
+escalade
+
+https://github.com/lukeed/escalade
+
+Copyright (c) (c) Luke Edwards (https://lukeed.com), Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
+
+License:MIT
+
+escape-html
+
+https://github.com/component/escape-html
+
+Copyright (c) 2012-2013 TJ Holowaychuk, Copyright (c) 2015 Andreas Lubbe, Copyright (c) 2015 Tiancheng Timothy Gu
+
+License:MIT
+
+escape-string-regexp
+
+https://github.com/sindresorhus/escape-string-regexp
+
+Copyright (c) (c) Sindre Sorhus (http://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+escape-string-regexp
+
+https://github.com/sindresorhus/escape-string-regexp
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+escodegen
+
+ssh://git@github.com/estools/escodegen
+
+Copyright (c) 2011-2012 Ariya Hidayat <ariya.hidayat@gmail.com>, Copyright (c) 2012 Arpad Borsos <arpad.borsos@googlemail.com>, Copyright (c) 2012 John Freeman <jfreeman08@gmail.com>, Copyright (c) 2012 Joost-Wim Boekesteijn <joost-wim@boekesteijn.nl>, Copyright (c) 2012 Kris Kowal <kris.kowal@cixar.com>, Copyright (c) 2012 Robert Gust-Bardon <donate@robert.gust-bardon.org>, Copyright (c) 2012 Yusuke Suzuki, Copyright (c) 2012 Yusuke Suzuki (http://github.com/Constellation) (twitter @Constellation (http://twitter.com/Constellation)) and other contributors, Copyright (c) 2012 Yusuke Suzuki (http://github.com/Constellation) (twitter Constellation (http://twitter.com/Constellation)) and other contributors, Copyright (c) 2012 Yusuke Suzuki (twitter Constellation) and other contributors, Copyright (c) 2012 Yusuke Suzuki <utatane.tea@gmail.com>, Copyright (c) 2012-2013 Mathias Bynens <mathias@qiwi.be>, Copyright (c) 2012-2013 Michael Ficarra <escodegen.copyright@michael.ficarra.me>, Copyright (c) 2012-2014 Yusuke Suzuki <utatane.tea@gmail.com>, Copyright (c) 2013 Irakli Gozalishvili <rfobic@gmail.com>, Copyright (c) 2014 Ivan Nikulin <ifaaan@gmail.com>, Copyright (c) 2015 Ingvar Stepanyan <me@rreverser.com>, Copyright (c) 2020 Apple Inc.
+
+License:BSD-2-Clause
+
+esprima
+
+https://github.com/jquery/esprima
+
+Copyright (c) JS Foundation and other contributors, https://js.foundation
+
+License:BSD-2-Clause AND BSD-3-Clause
+
+estraverse
+
+ssh://git@github.com/estools/estraverse
+
+Copyright (c) 2012 Ariya Hidayat <ariya.hidayat@gmail.com>, Copyright (c) 2012-2013 Yusuke Suzuki <utatane.tea@gmail.com>, Copyright (c) 2012-2016 Yusuke Suzuki (http://github.com/Constellation) (twitter @Constellation (http://twitter.com/Constellation)) and other contributors, Copyright (c) 2012-2016 Yusuke Suzuki (http://github.com/Constellation) (twitter Constellation (http://twitter.com/Constellation)) and other contributors, Copyright (c) 2014 Yusuke Suzuki <utatane.tea@gmail.com>
+
+License:BSD-2-Clause
+
+estree-walker
+
+https://github.com/Rich-Harris/estree-walker
+
+Copyright (c) 2015-20 these people (https://github.com/Rich-Harris/estree-walker/graphs/contributors)
+
+License:MIT
+
+esutils
+
+ssh://git@github.com/estools/esutils
+
+Copyright (c) 2013 Yusuke Suzuki (http://github.com/Constellation) (twitter @Constellation (http://twitter.com/Constellation)) and other contributors, Copyright (c) 2013 Yusuke Suzuki (http://github.com/Constellation) (twitter Constellation (http://twitter.com/Constellation)) and other contributors, Copyright (c) 2013 Yusuke Suzuki <utatane.tea@gmail.com>, Copyright (c) 2013-2014 Yusuke Suzuki <utatane.tea@gmail.com>, Copyright (c) 2014 Ivan Nikulin <ifaaan@gmail.com>
+
+License:BSD-2-Clause
+
+etag
+
+https://github.com/jshttp/etag
+
+Copyright (c) 2014-2016 Douglas Christopher Wilson
+
+License:MIT
+
+event-target-shim
+
+https://github.com/mysticatea/event-target-shim
+
+Copyright (c) 2015 Toru Nagashima, copyright 2015 Toru Nagashima
+
+License:MIT
+
+execa
+
+https://github.com/sindresorhus/execa
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+execa
+
+https://github.com/sindresorhus/execa
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+express
+
+https://github.com/expressjs/express
+
+Copyright (c) 2009-2013 TJ Holowaychuk, Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2013 Roman Shtylman, Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+express
+
+https://github.com/expressjs/express
+
+Copyright (c) 2009-2013 TJ Holowaychuk, Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2013 Roman Shtylman, Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+external-editor
+
+https://github.com/mrkmg/node-external-editor
+
+Copyright (c) 2016 Kevin Gravier, Copyright (c) 2016-2018 Kevin Gravier
+
+License:MIT
+
+extract-zip
+
+https://github.com/maxogden/extract-zip
+
+Copyright (c) 2014 Max Ogden and other contributors
+
+License:BSD-2-Clause
+
+fast-check
+
+https://github.com/dubzzz/fast-check
+
+Copyright (c) 2017 Nicolas DUBIEN
+
+License:MIT
+
+fast-content-type-parse
+
+https://github.com/fastify/fast-content-type-parse
+
+Copyright (c) 2023 The Fastify Team
+
+License:MIT
+
+fast-decode-uri-component
+
+https://github.com/delvedor/fast-decode-uri-component
+
+Copyright (c) 2008-2009 Bjoern Hoehrmann <bjoern@hoehrmann.de>, Copyright (c) 2017 Justin Ridgewell, Copyright (c) 2018 Tomas Della Vedova
+
+License:MIT
+
+fast-deep-equal
+
+https://github.com/epoberezkin/fast-deep-equal
+
+Copyright (c) 2017 Evgeny Poberezkin
+
+License:MIT
+
+fast-fifo
+
+https://github.com/mafintosh/fast-fifo
+
+Copyright (c) 2019 Mathias Buus
+
+License:MIT
+
+fast-json-stringify
+
+https://github.com/fastify/fast-json-stringify
+
+Copyright (c) 2016-2018 Matteo Collina
+
+License:MIT
+
+fast-querystring
+
+https://github.com/anonrig/fast-querystring
+
+Copyright (c) 2022 Yagiz Nizipli
+
+License:MIT
+
+fast-uri
+
+https://github.com/fastify/fast-uri
+
+Copyright (c) 2011-2021, Gary Court until https://github.com/garycourt/uri-js/commit/a1acf730b4bba3f1097c9f52e7d9d3aba8cdcaae, Copyright (c) 2021 The Fastify Team
+
+License:MIT
+
+fast-uri
+
+https://github.com/fastify/fast-uri
+
+Copyright (c) 2011-2021, Gary Court until https://github.com/garycourt/uri-js/commit/a1acf730b4bba3f1097c9f52e7d9d3aba8cdcaae, Copyright (c) 2021-present The Fastify team https://github.com/fastify/fastify team, Copyright 2011 Gary Court
+
+License:BSD-3-Clause
+
+fastify
+
+https://github.com/fastify/fastify
+
+Copyright (c) 2016-2024 The Fastify Team
+
+License:BSD-2-Clause AND BSD-3-Clause AND MIT
+
+fastify-plugin
+
+https://github.com/fastify/fastify-plugin
+
+Copyright (c) 2017 Fastify
+
+License:MIT
+
+fastq
+
+https://github.com/mcollina/fastq
+
+Copyright (c) 2015-2020, Matteo Collina <matteo.collina@gmail.com>
+
+License:ISC
+
+fd-slicer
+
+https://github.com/andrewrk/node-fd-slicer
+
+Copyright (c) 2014 Andrew Kelley
+
+License:MIT
+
+fdir
+
+https://github.com/thecodrr/fdir
+
+Copyright (c) 2024 Abdullah Atta, Copyright 2023 Abdullah Atta
+
+License:MIT
+
+figures
+
+https://github.com/sindresorhus/figures
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+figures
+
+https://github.com/sindresorhus/figures
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+file-url
+
+https://github.com/sindresorhus/file-url
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+finalhandler
+
+https://github.com/pillarjs/finalhandler
+
+Copyright (c) 2014-2017 Douglas Christopher Wilson, Copyright (c) 2014-2017 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+finalhandler
+
+https://github.com/pillarjs/finalhandler
+
+Copyright (c) 2014-2022 Douglas Christopher Wilson, Copyright (c) 2014-2022 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+find-my-way
+
+https://github.com/delvedor/find-my-way
+
+Copyright (c) 2017-2019 Tomas Della Vedova
+
+License:MIT
+
+find-up
+
+https://github.com/sindresorhus/find-up
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+form-data
+
+https://github.com/form-data/form-data
+
+Copyright (c) 2012 Felix Geisendorfer (felix@debuggable.com) and contributors
+
+License:MIT
+
+form-data-encoder
+
+https://github.com/octet-stream/form-data-encoder
+
+Copyright (c) 2021-present Nick K.
+
+License:MIT
+
+formdata-node
+
+https://github.com/octet-stream/form-data
+
+Copyright (c) 2017-present Nick K.
+
+License:MIT
+
+forwarded
+
+https://github.com/jshttp/forwarded
+
+Copyright (c) 2014-2017 Douglas Christopher Wilson
+
+License:MIT
+
+fresh
+
+https://github.com/jshttp/fresh
+
+Copyright (c) 2012 TJ Holowaychuk, Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2016-2017 Douglas Christopher Wilson, Copyright (c) 2016-2017 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+fs.realpath
+
+https://github.com/isaacs/fs.realpath
+
+Copyright (c) Isaac Z. Schlueter and Contributors, Copyright Joyent, Inc. and other Node contributors, Copyright Joyent, Inc. and other Node contributors.
+
+License:ISC AND MIT
+
+fsevents
+
+https://github.com/fsevents/fsevents
+
+Copyright (c) (c) 2020 by Philipp Dunkel, Ben Noordhuis, Elan Shankar, Paul Miller, Copyright (c) 2010-2020 by Philipp Dunkel, Ben Noordhuis, Elan Shankar, Paul Miller
+
+License:MIT
+
+function-bind
+
+https://github.com/Raynos/function-bind
+
+Copyright (c) 2013 Raynos
+
+License:MIT
+
+gensync
+
+https://github.com/loganfsmyth/gensync
+
+Copyright (c) 2018 Logan Smyth <loganfsmyth@gmail.com>
+
+License:MIT
+
+get-caller-file
+
+https://github.com/stefanpenner/get-caller-file
+
+Copyright (c) 2018 Stefan Penner
+
+License:ISC
+
+get-func-name
+
+ssh://git@github.com/chaijs/get-func-name
+
+Copyright (c) 2012-2016 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)
+
+License:MIT
+
+get-intrinsic
+
+https://github.com/ljharb/get-intrinsic
+
+Copyright (c) 2020 Jordan Harband
+
+License:MIT
+
+get-proto
+
+https://github.com/ljharb/get-proto
+
+Copyright (c) 2025 Jordan Harband
+
+License:MIT
+
+get-stream
+
+https://github.com/sindresorhus/get-stream
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+get-stream
+
+https://github.com/sindresorhus/get-stream
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+get-stream
+
+https://github.com/sindresorhus/get-stream
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+get-uri
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+glob
+
+ssh://git@github.com/isaacs/node-glob
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+gopd
+
+https://github.com/ljharb/gopd
+
+Copyright (c) 2022 Jordan Harband
+
+License:MIT
+
+graceful-fs
+
+https://github.com/isaacs/node-graceful-fs
+
+Copyright (c) 2011-2022 Isaac Z. Schlueter, Ben Noordhuis, and Contributors
+
+License:ISC
+
+has-flag
+
+https://github.com/sindresorhus/has-flag
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+has-flag
+
+https://github.com/sindresorhus/has-flag
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+has-symbols
+
+https://github.com/inspect-js/has-symbols
+
+Copyright (c) 2016 Jordan Harband
+
+License:MIT
+
+has-tostringtag
+
+https://github.com/inspect-js/has-tostringtag
+
+Copyright (c) 2021 Inspect JS
+
+License:MIT
+
+hasown
+
+https://github.com/inspect-js/hasOwn
+
+Copyright (c) Jordan Harband and contributors
+
+License:MIT
+
+http-errors
+
+https://github.com/jshttp/http-errors
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong me@jongleberry.com, Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com
+
+License:MIT
+
+http-errors
+
+https://github.com/jshttp/http-errors
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong me@jongleberry.com, Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com
+
+License:MIT
+
+http-link-header
+
+https://codeberg.org/jhermsmeier/node-http-link-header
+
+Copyright (c) 2016-2023 Jonas Hermsmeier, and contributors
+
+License:MIT
+
+http-proxy-agent
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+https-proxy-agent
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+https-proxy-agent
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+humanize-ms
+
+https://github.com/node-modules/humanize-ms
+
+Copyright (c) 2014
+
+License:MIT
+
+iconv-lite
+
+https://github.com/pillarjs/iconv-lite
+
+Copyright (c) 2011 Alexander Shtuchkin, Copyright (c) Microsoft Corporation
+
+License:MIT
+
+iconv-lite
+
+https://github.com/pillarjs/iconv-lite
+
+Copyright (c) 2011 Alexander Shtuchkin, Copyright (c) Microsoft Corporation
+
+License:MIT
+
+ieee754
+
+https://github.com/feross/ieee754
+
+Copyright (c) 2008, Fair Oaks Labs, Inc., Copyright 2008 Fair Oaks Labs, Inc.
+
+License:BSD-3-Clause
+
+image-ssim
+
+https://github.com/darosh/image-ssim-js
+
+Copyright (c) 2015 Igor Bezkrovny, Copyright 2015 Igor Bezkrovny
+
+License:MIT
+
+imurmurhash
+
+https://github.com/jensyt/imurmurhash-js
+
+Copyright (c) 2013 Gary Court, Jens Taylor
+
+License:MIT
+
+inflight
+
+https://github.com/npm/inflight
+
+Copyright (c) Isaac Z. Schlueter
+
+License:ISC
+
+inherits
+
+https://github.com/isaacs/inherits
+
+Copyright (c) Isaac Z. Schlueter
+
+License:ISC
+
+inherits
+
+https://github.com/isaacs/inherits
+
+Copyright (c) Isaac Z. Schlueter
+
+License:ISC
+
+inquirer
+
+https://github.com/SBoudrias/Inquirer.js
+
+Copyright (c) 2012 Simon Boudrias, Copyright (c) 2016 Simon Boudrias (twitter @vaxilart (https://twitter.com/Vaxilart)), Copyright (c) 2016 Simon Boudrias (twitter vaxilart (https://twitter.com/Vaxilart))
+
+License:MIT
+
+intl-messageformat
+
+https://github.com/formatjs/formatjs
+
+Copyright (c) 2014, Yahoo! Inc., Copyright (c) 2023, Oath Inc.
+
+License:BSD-3-Clause
+
+ip-address
+
+https://github.com/beaugunderson/ip-address
+
+Copyright (c) 2011 by Beau Gunderson
+
+License:MIT
+
+ipaddr.js
+
+https://github.com/whitequark/ipaddr.js
+
+Copyright (c) 2011-2017 whitequark <whitequark@whitequark.org>
+
+License:MIT
+
+is-docker
+
+https://github.com/sindresorhus/is-docker
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+is-fullwidth-code-point
+
+https://github.com/sindresorhus/is-fullwidth-code-point
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+is-fullwidth-code-point
+
+https://github.com/sindresorhus/is-fullwidth-code-point
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+is-obj
+
+https://github.com/sindresorhus/is-obj
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+is-plain-obj
+
+https://github.com/sindresorhus/is-plain-obj
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+is-stream
+
+https://github.com/sindresorhus/is-stream
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+is-stream
+
+https://github.com/sindresorhus/is-stream
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+is-typedarray
+
+https://github.com/hughsk/is-typedarray
+
+Copyright (c) Hugh Kennedy
+
+License:MIT
+
+is-unicode-supported
+
+https://github.com/sindresorhus/is-unicode-supported
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+is-wsl
+
+https://github.com/sindresorhus/is-wsl
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+isexe
+
+https://github.com/isaacs/isexe
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+isomorphic-fetch
+
+https://github.com/matthew-andrews/isomorphic-fetch
+
+Copyright (c) 2015 Matt Andrews
+
+License:MIT
+
+jiti
+
+https://github.com/unjs/jiti
+
+Copyright (c) (c) (o,a.id,h,e) ,y n.template.expression.ast, Copyright (c) 2014-present, Facebook, Inc., Copyright (c) Pooya Parsa <pooya@pi0.io>
+
+License:MIT
+
+jpeg-js
+
+https://github.com/eugeneware/jpeg-js
+
+Copyright (c) 2008, Adobe Systems Incorporated, Copyright (c) 2014, Eugene Ware, Copyright 2011 notmasteryet
+
+License:Apache-2.0 AND BSD-3-Clause
+
+js-library-detector
+
+https://github.com/johnmichel/Library-Detector-for-Chrome
+
+Copyright (c) 2010-2016 Andrew Bredow, John Michel, and other contributors
+
+License:MIT
+
+js-md4
+
+https://github.com/emn178/js-md4
+
+Copyright (c) 2015-2017 Yi-Cyuan Chen, copyright Yi-Cyuan Chen, copyright Yi-Cyuan Chen 2015-2027
+
+License:MIT
+
+js-tokens
+
+https://github.com/lydell/js-tokens
+
+Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell, Copyright 2014, 2015, 2016, 2017, 2018 Simon Lydell
+
+License:MIT
+
+js-tokens
+
+https://github.com/lydell/js-tokens
+
+Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Simon Lydell, Copyright 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Simon Lydell
+
+License:MIT
+
+js-yaml
+
+https://github.com/nodeca/js-yaml
+
+Copyright (c) 2011-2015 by Vitaly Puzrin
+
+License:MIT
+
+jsesc
+
+https://github.com/mathiasbynens/jsesc
+
+Copyright (c) Mathias Bynens <https://mathiasbynens.be/>, Copyright Mathias Bynens https://mathiasbynens.be
+
+License:MIT
+
+json-schema-ref-resolver
+
+https://github.com/fastify/json-schema-ref-resolver
+
+Copyright (c) 2023 Fastify
+
+License:MIT
+
+json-schema-traverse
+
+https://github.com/epoberezkin/json-schema-traverse
+
+Copyright (c) 2017 Evgeny Poberezkin
+
+License:MIT
+
+json5
+
+https://github.com/json5/json5
+
+Copyright (c) (c) 2019 Denis Pushkarev, Copyright (c) 2012-2018 Aseem Kishore, and others, copyright (c) 2019 Denis Pushkarev
+
+License:MIT
+
+light-my-request
+
+https://github.com/fastify/light-my-request
+
+Copyright (c) 2012-2014, Walmart, Copyright (c) 2012-2017, Project contributors, Copyright (c) 2017 The Fastify Team
+
+License:BSD-3-Clause
+
+lilconfig
+
+https://github.com/antonk52/lilconfig
+
+Copyright (c) 2022 Anton Kastritskiy
+
+License:MIT
+
+local-pkg
+
+https://github.com/antfu-collective/local-pkg
+
+Copyright (c) (c) 2021 Anthony Fu (https://github.com/antfu), Copyright (c) 2021 Anthony Fu <https://github.com/antfu>
+
+License:MIT
+
+locate-path
+
+https://github.com/sindresorhus/locate-path
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+lodash
+
+https://github.com/lodash/lodash
+
+Copyright (c) Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors http://underscorejs.org, Copyright JS Foundation and other contributors <https://js.foundation/>, Copyright JS Foundation and other contributors https://js.foundation
+
+License:MIT
+
+lodash
+
+https://github.com/lodash/lodash
+
+Copyright (c) Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors http://underscorejs.org, Copyright OpenJS Foundation and other contributors https://openjsf.org
+
+License:MIT
+
+lodash.groupby
+
+https://github.com/lodash/lodash
+
+Copyright (c) Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>, Copyright jQuery Foundation and other contributors <https://jquery.org/>
+
+License:MIT
+
+lookup-closest-locale
+
+https://github.com/format-message/format-message
+
+Copyright (c) Andy VanWagoner
+
+License:MIT
+
+loose-envify
+
+https://github.com/zertosh/loose-envify
+
+Copyright (c) 2015 Andres Suarez <zertosh@gmail.com>
+
+License:MIT
+
+loupe
+
+https://github.com/chaijs/loupe
+
+Copyright (c) 2011-2013 Jake Luer jake@alogicalparadox.com, Copyright (c) 2012-2016 Jake Luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com>
+
+License:MIT
+
+lru-cache
+
+ssh://git@github.com/isaacs/node-lru-cache
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+lru-cache
+
+ssh://git@github.com/isaacs/node-lru-cache
+
+Copyright (c) 2010-2023 Isaac Z. Schlueter and Contributors, Copyright (c) Microsoft Corporation
+
+License:ISC
+
+lru_map
+
+https://github.com/rsms/js-lru
+
+Copyright (c) 2010 Rasmus Andersson <http://hunch.se/>, Copyright (c) 2010-2016 Rasmus Andersson <https://rsms.me/>
+
+License:MIT
+
+magic-string
+
+https://github.com/Rich-Harris/magic-string
+
+Copyright (c) 2018 Rich Harris
+
+License:MIT
+
+make-dir
+
+https://github.com/sindresorhus/make-dir
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+math-intrinsics
+
+https://github.com/es-shims/math-intrinsics
+
+Copyright (c) 2024 ECMAScript Shims
+
+License:MIT
+
+media-typer
+
+https://github.com/jshttp/media-typer
+
+Copyright (c) 2014 Douglas Christopher Wilson
+
+License:MIT
+
+merge-descriptors
+
+https://github.com/sindresorhus/merge-descriptors
+
+Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Jonathan Ong, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+merge-descriptors
+
+https://github.com/sindresorhus/merge-descriptors
+
+Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Jonathan Ong, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+merge-stream
+
+https://github.com/grncdr/merge-stream
+
+Copyright (c) Stephen Sugden <me@stephensugden.com> (stephensugden.com)
+
+License:MIT
+
+metaviewport-parser
+
+https://github.com/dontcallmedom/metaviewport-parser
+
+Copyright (c) 2014 Dominique Hazael-Massieux
+
+License:MIT
+
+methods
+
+https://github.com/jshttp/methods
+
+Copyright (c) 2013-2014 TJ Holowaychuk, Copyright (c) 2013-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2015-2016 Douglas Christopher Wilson, Copyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+mime
+
+https://github.com/broofa/mime
+
+Copyright (c) 2010 Benjamin Thomas, Robert Kieffer
+
+License:MIT
+
+mime
+
+https://github.com/broofa/mime
+
+Copyright (c) 2010 Benjamin Thomas, Robert Kieffer
+
+License:MIT
+
+mime-db
+
+https://github.com/jshttp/mime-db
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2015-2022 Douglas Christopher Wilson, Copyright (c) 2015-2022 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+mime-types
+
+https://github.com/jshttp/mime-types
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+mimic-fn
+
+https://github.com/sindresorhus/mimic-fn
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+mimic-fn
+
+https://github.com/sindresorhus/mimic-fn
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+minimalistic-assert
+
+https://github.com/calvinmetcalf/minimalistic-assert
+
+Copyright (c) 2015 Calvin Metcalf
+
+License:ISC
+
+minimatch
+
+ssh://git@github.com/isaacs/minimatch
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+minimatch
+
+ssh://git@github.com/isaacs/minimatch
+
+Copyright (c) 2011-2023 Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+minimist
+
+https://github.com/minimistjs/minimist
+
+Copyright (c) James Halliday
+
+License:MIT
+
+mitt
+
+https://github.com/developit/mitt
+
+Copyright (c) (c) Jason Miller (https://jasonformat.com/), Copyright (c) 2021 Jason Miller
+
+License:MIT
+
+mkdirp
+
+https://github.com/isaacs/node-mkdirp
+
+Copyright (c) 2010 James Halliday (mail@substack.net)
+
+License:MIT
+
+mlly
+
+https://github.com/unjs/mlly
+
+Copyright (c) Pooya Parsa <pooya@pi0.io>
+
+License:MIT
+
+mnemonist
+
+https://github.com/yomguithereal/mnemonist
+
+Copyright (c) 2016 Guillaume Plique
+
+License:MIT
+
+ms
+
+https://github.com/vercel/ms
+
+Copyright (c) 2016 Zeit, Inc.
+
+License:MIT
+
+ms
+
+https://github.com/vercel/ms
+
+Copyright (c) 2020 Vercel, Inc.
+
+License:MIT
+
+mute-stream
+
+https://github.com/npm/mute-stream
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+mute-stream
+
+https://github.com/npm/mute-stream
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+nanoid
+
+https://github.com/ai/nanoid
+
+Copyright (c) 2017 Andrey Sitnik <andrey@sitnik.ru>
+
+License:MIT
+
+nanospinner
+
+https://github.com/usmanyunusov/nanospinner
+
+Copyright (c) 2024 Usman Yunusov <usman.iunusov@gmail.com>
+
+License:MIT
+
+negotiator
+
+https://github.com/jshttp/negotiator
+
+Copyright (c) 2012 Federico Romero, Copyright (c) 2012 Isaac Z. Schlueter, Copyright (c) 2012-2014 Federico Romero, Copyright (c) 2012-2014 Isaac Z. Schlueter, Copyright (c) 2014 Federico Romero, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson
+
+License:MIT
+
+negotiator
+
+https://github.com/jshttp/negotiator
+
+Copyright (c) 2012 Federico Romero, Copyright (c) 2012 Isaac Z. Schlueter, Copyright (c) 2012-2014 Federico Romero, Copyright (c) 2012-2014 Isaac Z. Schlueter, Copyright (c) 2014 Federico Romero, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson
+
+License:MIT
+
+netmask
+
+https://github.com/rs/node-netmask
+
+Copyright (c) 2011 Olivier Poitrey <rs@rhapsodyk.net>, Copyright (c) 2011 Olivier Poitrey rs@rhapsodyk.net
+
+License:MIT
+
+node-domexception
+
+https://github.com/jimmywarting/node-domexception
+
+Copyright (c) 2021 Jimmy Warting
+
+License:MIT
+
+node-fetch
+
+https://github.com/node-fetch/node-fetch
+
+Copyright (c) 2016 David Frank
+
+License:MIT
+
+node-releases
+
+https://github.com/chicoxyzzy/node-releases
+
+Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy)
+
+License:MIT
+
+npm-run-path
+
+https://github.com/sindresorhus/npm-run-path
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+npm-run-path
+
+https://github.com/sindresorhus/npm-run-path
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+object-inspect
+
+https://github.com/inspect-js/object-inspect
+
+Copyright (c) 2013 James Halliday
+
+License:MIT
+
+obliterator
+
+https://github.com/yomguithereal/obliterator
+
+Copyright (c) 2017-2021 Guillaume Plique
+
+License:MIT
+
+on-exit-leak-free
+
+https://github.com/mcollina/on-exit-or-gc
+
+Copyright (c) 2021 Matteo Collina
+
+License:MIT
+
+on-finished
+
+https://github.com/jshttp/on-finished
+
+Copyright (c) 2013 Jonathan Ong, Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Douglas Christopher Wilson, Copyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+on-finished
+
+https://github.com/jshttp/on-finished
+
+Copyright (c) 2013 Jonathan Ong, Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Douglas Christopher Wilson, Copyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+on-headers
+
+https://github.com/jshttp/on-headers
+
+Copyright (c) 2014 Douglas Christopher Wilson
+
+License:MIT
+
+once
+
+https://github.com/isaacs/once
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+onetime
+
+https://github.com/sindresorhus/onetime
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+onetime
+
+https://github.com/sindresorhus/onetime
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+open
+
+https://github.com/sindresorhus/open
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright 2006, Jeremy White <jwhite@codeweavers.com>, Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at>, Copyright 2009-2010, Fathi Boudra <fabo@freedesktop.org>, Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org>
+
+License:MIT
+
+open
+
+https://github.com/sindresorhus/open
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright 2006, Jeremy White <jwhite@codeweavers.com>, Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at>, Copyright 2009-2010, Fathi Boudra <fabo@freedesktop.org>, Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org>
+
+License:MIT
+
+os-tmpdir
+
+https://github.com/sindresorhus/os-tmpdir
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+p-limit
+
+https://github.com/sindresorhus/p-limit
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+p-limit
+
+https://github.com/sindresorhus/p-limit
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+p-locate
+
+https://github.com/sindresorhus/p-locate
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+p-try
+
+https://github.com/sindresorhus/p-try
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+pac-proxy-agent
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+pac-resolver
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+parse-cache-control
+
+https://github.com/roryf/parse-cache-control
+
+Copyright (c) 2012-2014, Walmart and other contributors, Copyright (c) 2012-2014, Walmart and other contributors.
+
+License:BSD-3-Clause
+
+parse-ms
+
+https://github.com/sindresorhus/parse-ms
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+parseurl
+
+https://github.com/pillarjs/parseurl
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2017 Douglas Christopher Wilson, Copyright (c) 2014-2017 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+path-exists
+
+https://github.com/sindresorhus/path-exists
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+path-is-absolute
+
+https://github.com/sindresorhus/path-is-absolute
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+path-key
+
+https://github.com/sindresorhus/path-key
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+path-key
+
+https://github.com/sindresorhus/path-key
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+path-to-regexp
+
+https://github.com/pillarjs/path-to-regexp
+
+Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+
+License:MIT
+
+path-to-regexp
+
+https://github.com/pillarjs/path-to-regexp
+
+Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+
+License:MIT
+
+pathe
+
+https://github.com/unjs/pathe
+
+Copyright (c) Pooya Parsa <pooya@pi0.io>, Copyright Joyent, Inc. and other Node contributors
+
+License:MIT
+
+pathe
+
+https://github.com/unjs/pathe
+
+Copyright (c) 2023-present Fabio Spampinato, Copyright (c) Pooya Parsa <pooya@pi0.io>, Copyright Joyent, Inc. and other Node contributors
+
+License:MIT
+
+pathval
+
+ssh://git@github.com/chaijs/pathval
+
+Copyright (c) 2011-2013 Jake Luer jake@alogicalparadox.com, Copyright (c) 2012-2014 Jake Luer <jake@alogicalparadox.com>
+
+License:MIT
+
+pend
+
+https://github.com/andrewrk/node-pend
+
+Copyright (c) 2014 Andrew Kelley
+
+License:MIT
+
+picocolors
+
+https://github.com/alexeyraspopov/picocolors
+
+Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov
+
+License:ISC
+
+picomatch
+
+https://github.com/micromatch/picomatch
+
+Copyright (c) 2017-present, Jon Schlinkert, Copyright (c) 2017-present, Jon Schlinkert (https://github.com/jonschlinkert)
+
+License:MIT
+
+pino
+
+https://github.com/pinojs/pino
+
+Copyright (c) 2016-2025 Matteo Collina, David Mark Clements and the Pino contributors
+
+License:MIT
+
+pino-abstract-transport
+
+https://github.com/pinojs/pino-abstract-transport
+
+Copyright (c) 2021 pino
+
+License:MIT
+
+pino-std-serializers
+
+ssh://git@github.com/pinojs/pino-std-serializers
+
+Copyright (c) James Sumners
+
+License:MIT
+
+pkg-types
+
+unjs/pkg-types
+
+Copyright (c) Pooya Parsa <pooya@pi0.io>, Copyright Joyent, Inc. and other Node contributors
+
+License:MIT
+
+postcss
+
+https://github.com/postcss/postcss
+
+Copyright (c) 2013 Andrey Sitnik <andrey@sitnik.es>
+
+License:MIT
+
+pretty-format
+
+https://github.com/jestjs/jest
+
+Copyright (c) Meta Platforms, Inc. and affiliates
+
+License:MIT
+
+pretty-ms
+
+https://github.com/sindresorhus/pretty-ms
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+process-warning
+
+https://github.com/fastify/process-warning
+
+Copyright (c) Fastify
+
+License:MIT
+
+process-warning
+
+https://github.com/fastify/process-warning
+
+Copyright (c) Fastify
+
+License:MIT
+
+progress
+
+https://github.com/visionmedia/node-progress
+
+Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2017 TJ Holowaychuk <tj@vision-media.ca>
+
+License:MIT
+
+proxy-addr
+
+https://github.com/jshttp/proxy-addr
+
+Copyright (c) 2014-2016 Douglas Christopher Wilson
+
+License:MIT
+
+proxy-agent
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+proxy-from-env
+
+https://github.com/Rob--W/proxy-from-env
+
+Copyright (c) 2016-2018 Rob Wu <rob@robwu.nl>
+
+License:MIT
+
+pump
+
+https://github.com/mafintosh/pump
+
+Copyright (c) 2014 Mathias Buus
+
+License:MIT
+
+pure-rand
+
+https://github.com/dubzzz/pure-rand
+
+Copyright (c) 2018 Nicolas DUBIEN
+
+License:MIT
+
+qs
+
+https://github.com/ljharb/qs
+
+Copyright (c) 2014, Nathan LaFreniere and other contributors (https://github.com/ljharb/qs/graphs/contributors)
+
+License:BSD-3-Clause
+
+qs
+
+https://github.com/ljharb/qs
+
+Copyright (c) 2014 Nathan LaFreniere and other contributors, Copyright (c) 2014 Nathan LaFreniere and other contributors.
+
+License:BSD-3-Clause
+
+quick-format-unescaped
+
+https://github.com/davidmarkclements/quick-format
+
+Copyright (c) 2016-2019 David Mark Clements
+
+License:MIT
+
+range-parser
+
+https://github.com/jshttp/range-parser
+
+Copyright (c) 2012-2014 TJ Holowaychuk, Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2015-2016 Douglas Christopher Wilson, Copyright (c) 2015-2016 Douglas Christopher Wilson doug@somethingdoug.com
+
+License:MIT
+
+raw-body
+
+https://github.com/stream-utils/raw-body
+
+Copyright (c) 2013-2014 Jonathan Ong, Copyright (c) 2013-2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+raw-body
+
+https://github.com/stream-utils/raw-body
+
+Copyright (c) 2013-2014 Jonathan Ong, Copyright (c) 2013-2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2022 Douglas Christopher Wilson, Copyright (c) 2014-2022 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+react
+
+https://github.com/react/react
+
+Copyright (c) Facebook, Inc. and its affiliates
+
+License:MIT
+
+react-dom
+
+https://github.com/react/react
+
+Copyright (c) (c) http://www.w3.org/1999/xhtml, (c) Ka (c), Copyright (c) Facebook, Inc. and its affiliates
+
+License:MIT
+
+react-is
+
+https://github.com/react/react
+
+Copyright (c) Facebook, Inc. and its affiliates
+
+License:MIT
+
+react-refresh
+
+https://github.com/react/react
+
+Copyright (c) Meta Platforms, Inc. and affiliates
+
+License:MIT
+
+readdirp
+
+https://github.com/paulmillr/readdirp
+
+Copyright (c) (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com), Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller ( https://paulmillr.com ), Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com), Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller <https://paulmillr.com>
+
+License:MIT
+
+real-require
+
+https://github.com/pinojs/real-require
+
+Copyright (c) 2021 Paolo Insogna, Copyright Paolo Insogna and real-require contributors 2021
+
+License:MIT
+
+require-directory
+
+https://github.com/troygoode/node-require-directory
+
+Copyright (c) 2011 Troy Goode <troygoode@gmail.com>
+
+License:MIT
+
+require-from-string
+
+https://github.com/floatdrop/require-from-string
+
+Copyright (c) (c) Vsevolod Strukchinsky (http://github.com/floatdrop), Copyright (c) Vsevolod Strukchinsky <floatdrop@gmail.com>
+
+License:MIT
+
+require-main-filename
+
+ssh://git@github.com/yargs/require-main-filename
+
+Copyright (c) 2016, Copyright (c) 2016, Contributors
+
+License:ISC
+
+restore-cursor
+
+https://github.com/sindresorhus/restore-cursor
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+ret
+
+https://github.com/fent/ret.js
+
+Copyright (c) 2011 by fent
+
+License:MIT
+
+reusify
+
+https://github.com/mcollina/reusify
+
+Copyright (c) 2015-2024 Matteo Collina
+
+License:MIT
+
+rfdc
+
+https://github.com/davidmarkclements/rfdc
+
+Copyright (c) 2019 David Mark Clements <david.mark.clements@gmail.com>
+
+License:MIT
+
+rimraf
+
+ssh://git@github.com/isaacs/rimraf
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+rimraf
+
+ssh://git@github.com/isaacs/rimraf
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+robots-parser
+
+https://github.com/samclarke/robots-parser
+
+Copyright (c) Sam Clarke
+
+License:MIT
+
+rollup
+
+https://github.com/rollup/rollup
+
+Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker, Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com), Copyright (c) 2014-2016, Jon Schlinkert, Copyright (c) 2014-2017, Jon Schlinkert, Copyright (c) 2014-2018, Jon Schlinkert, Copyright (c) 2014-present, Jon Schlinkert, Copyright (c) 2015-2023 Benjamin Coe, Isaac Z. Schlueter, and Contributors, Copyright (c) 2015-present, Jon Schlinkert, Copyright (c) 2015, 2019 Elan Shanker, Copyright (C) 2016 Contributors, Copyright (c) 2016, Contributors, Copyright (c) 2017 these people (https://github.com/rollup/rollup/graphs/contributors), Copyright (c) 2017-present, Jon Schlinkert, Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com), Copyright (c) 2019 RollupJS Plugin Contributors (https://github.com/rollup/plugins/graphs/contributors), Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com), Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov, Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com), Copyright (c) Microsoft Corporation, Copyright (c) Paul Miller (https://paulmillr.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright 2018 Rich Harris, Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
+
+License:MIT
+
+run-async
+
+https://github.com/SBoudrias/run-async
+
+Copyright (c) 2014 Simon Boudrias
+
+License:MIT
+
+safe-buffer
+
+https://github.com/feross/safe-buffer
+
+Copyright (c) Feross Aboukhadijeh, Copyright (c) Feross Aboukhadijeh (http://feross.org)
+
+License:MIT
+
+safe-buffer
+
+https://github.com/feross/safe-buffer
+
+Copyright (c) Feross Aboukhadijeh, Copyright (c) Feross Aboukhadijeh (http://feross.org)
+
+License:MIT
+
+safe-regex2
+
+https://github.com/fastify/safe-regex2
+
+Copyright (c) James Halliday
+
+License:MIT
+
+safe-stable-stringify
+
+https://github.com/BridgeAR/safe-stable-stringify
+
+Copyright (c) Ruben Bridgewater
+
+License:MIT
+
+safer-buffer
+
+https://github.com/ChALkeR/safer-buffer
+
+Copyright (c) 2018 Nikita Skovoroda <chalkerx@gmail.com>
+
+License:MIT
+
+scheduler
+
+https://github.com/react/react
+
+Copyright (c) Facebook, Inc. and its affiliates
+
+License:MIT
+
+secure-json-parse
+
+https://github.com/fastify/secure-json-parse
+
+Copyright (c) 2019 The Fastify Team, Copyright (c) 2019, Sideway Inc, and project contributors
+
+License:BSD-3-Clause
+
+semver
+
+https://github.com/npm/node-semver
+
+Copyright (c) Isaac Z. Schlueter and Contributors, Copyright Isaac Z., Copyright Isaac Z. Schlueter
+
+License:ISC
+
+semver
+
+https://github.com/npm/node-semver
+
+Copyright (c) Isaac Z. Schlueter and Contributors, Copyright Isaac Z., Copyright Isaac Z. Schlueter
+
+License:ISC
+
+semver
+
+https://github.com/npm/node-semver
+
+Copyright (c) Isaac Z. Schlueter and Contributors, Copyright Isaac Z. Schlueter
+
+License:ISC
+
+semver
+
+https://github.com/npm/node-semver
+
+Copyright (c) Isaac Z. Schlueter and Contributors, Copyright Isaac Z. Schlueter
+
+License:ISC
+
+send
+
+https://github.com/pillarjs/send
+
+Copyright (c) 2012 TJ Holowaychuk, Copyright (c) 2014-2016 Douglas Christopher Wilson
+
+License:MIT
+
+send
+
+https://github.com/pillarjs/send
+
+Copyright (c) 2012 TJ Holowaychuk, Copyright (c) 2014-2022 Douglas Christopher Wilson
+
+License:MIT
+
+serve-static
+
+https://github.com/expressjs/serve-static
+
+Copyright (c) 2010 Sencha Inc., Copyright (c) 2011 LearnBoost, Copyright (c) 2011 TJ Holowaychuk, Copyright (c) 2014-2016 Douglas Christopher Wilson
+
+License:MIT
+
+serve-static
+
+https://github.com/expressjs/serve-static
+
+Copyright (c) 2010 Sencha Inc., Copyright (c) 2011 LearnBoost, Copyright (c) 2011 TJ Holowaychuk, Copyright (c) 2014-2016 Douglas Christopher Wilson
+
+License:MIT
+
+set-blocking
+
+https://github.com/yargs/set-blocking
+
+Copyright (c) 2016, Contributors
+
+License:ISC
+
+set-cookie-parser
+
+https://github.com/nfriedly/set-cookie-parser
+
+Copyright (c) (c) Nathan Friedly (http://www.nfriedly.com/), Copyright (c) 2015 Nathan Friedly <nathan@nfriedly.com> (http://nfriedly.com/)
+
+License:MIT
+
+setprototypeof
+
+https://github.com/wesleytodd/setprototypeof
+
+Copyright (c) 2015, Wes Todd
+
+License:ISC
+
+setprototypeof
+
+https://github.com/wesleytodd/setprototypeof
+
+Copyright (c) 2015, Wes Todd
+
+License:ISC
+
+shebang-command
+
+https://github.com/kevva/shebang-command
+
+Copyright (c) Kevin Martensson <kevinmartensson@gmail.com>
+
+License:MIT
+
+shebang-regex
+
+https://github.com/sindresorhus/shebang-regex
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+shell-quote
+
+ssh://git@github.com/ljharb/shell-quote
+
+Copyright (c) 2013 James Halliday (mail@substack.net)
+
+License:MIT
+
+side-channel
+
+https://github.com/ljharb/side-channel
+
+Copyright (c) 2019 Jordan Harband
+
+License:MIT
+
+side-channel-list
+
+https://github.com/ljharb/side-channel-list
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+side-channel-map
+
+https://github.com/ljharb/side-channel-map
+
+Copyright (c) 2024 Jordan Harband
+
+License:MIT
+
+side-channel-weakmap
+
+https://github.com/ljharb/side-channel-weakmap
+
+Copyright (c) 2019 Jordan Harband
+
+License:MIT
+
+siginfo
+
+https://github.com/emilbayes/siginfo
+
+Copyright (c) 2017, Emil Bay <github@tixz.dk>
+
+License:ISC
+
+signal-exit
+
+https://github.com/tapjs/signal-exit
+
+Copyright (c) 2015, Contributors
+
+License:ISC
+
+signal-exit
+
+https://github.com/tapjs/signal-exit
+
+Copyright (c) 2015-2023 Benjamin Coe, Isaac Z. Schlueter, and Contributors
+
+License:ISC
+
+size-limit
+
+https://github.com/ai/size-limit
+
+Copyright (c) 2017 Andrey Sitnik <andrey@sitnik.ru>
+
+License:MIT
+
+smart-buffer
+
+https://github.com/JoshGlazebrook/smart-buffer
+
+Copyright (c) 2013-2017 Josh Glazebrook
+
+License:MIT
+
+socks
+
+https://github.com/JoshGlazebrook/socks
+
+Copyright (c) 2013 Josh Glazebrook
+
+License:MIT
+
+socks-proxy-agent
+
+https://github.com/TooTallNate/proxy-agents
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+License:MIT
+
+sonic-boom
+
+https://github.com/pinojs/sonic-boom
+
+Copyright (c) 2017 Matteo Collina
+
+License:MIT
+
+source-map
+
+ssh://git@github.com/mozilla/source-map
+
+Copyright (c) 2009-2011, Mozilla Foundation and contributors, Copyright 2009-2011 Mozilla Foundation and contributors, Copyright 2011 Mozilla Foundation and contributors, Copyright 2011 The Closure Compiler Authors, Copyright 2014 Mozilla Foundation and contributors
+
+License:BSD-3-Clause
+
+source-map
+
+ssh://git@github.com/mozilla/source-map
+
+Copyright (c) 2009-2011, Mozilla Foundation and contributors, Copyright 2009-2011 Mozilla Foundation and contributors, Copyright 2011 Mozilla Foundation and contributors, Copyright 2011 The Closure Compiler Authors, Copyright 2014 Mozilla Foundation and contributors
+
+License:BSD-3-Clause
+
+source-map-js
+
+https://github.com/7rulnik/source-map-js
+
+Copyright (c) 2009-2011, Mozilla Foundation and contributors, Copyright 2009-2011 Mozilla Foundation and contributors, Copyright 2011 Mozilla Foundation and contributors, Copyright 2011 The Closure Compiler Authors, Copyright 2014 Mozilla Foundation and contributors
+
+License:BSD-3-Clause
+
+speedline-core
+
+https://github.com/paulirish/speedline
+
+Copyright (c) (c) Pierre-Marie Dartus (https://github.com/pmdartus)
+
+License:MIT
+
+split2
+
+https://github.com/mcollina/split2
+
+Copyright (c) 2014-2018, Matteo Collina <hello@matteocollina.com>, Copyright (c) 2014-2021, Matteo Collina <hello@matteocollina.com>
+
+License:ISC
+
+sprintf-js
+
+https://github.com/alexei/sprintf.js
+
+Copyright (c) 2007-2014, Alexandru Marasteanu
+
+License:BSD-3-Clause
+
+stackback
+
+https://github.com/shtylman/node-stackback
+
+Copyright (c) 2012 the V8 project, Copyright 2012 the V8 project authors
+
+License:MIT
+
+statuses
+
+https://github.com/jshttp/statuses
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+statuses
+
+https://github.com/jshttp/statuses
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+std-env
+
+https://github.com/unjs/std-env
+
+Copyright (c) Pooya Parsa <pooya@pi0.io>
+
+License:MIT
+
+streamx
+
+https://github.com/mafintosh/streamx
+
+Copyright (c) 2019 Mathias Buus
+
+License:MIT
+
+string-width
+
+https://github.com/sindresorhus/string-width
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+string-width
+
+https://github.com/sindresorhus/string-width
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+strip-ansi
+
+https://github.com/chalk/strip-ansi
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+strip-ansi
+
+https://github.com/chalk/strip-ansi
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+strip-ansi
+
+https://github.com/chalk/strip-ansi
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+strip-final-newline
+
+https://github.com/sindresorhus/strip-final-newline
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+strip-final-newline
+
+https://github.com/sindresorhus/strip-final-newline
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+strip-literal
+
+https://github.com/antfu/strip-literal
+
+Copyright (c) (c) 2022 Anthony Fu (https://github.com/antfu), Copyright (c) 2022 Anthony Fu <https://github.com/antfu>
+
+License:MIT
+
+supports-color
+
+https://github.com/chalk/supports-color
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+supports-color
+
+https://github.com/chalk/supports-color
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+supports-color
+
+https://github.com/chalk/supports-color
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+tar-fs
+
+https://github.com/mafintosh/tar-fs
+
+Copyright (c) 2014 Mathias Buus
+
+License:MIT
+
+tar-stream
+
+https://github.com/mafintosh/tar-stream
+
+Copyright (c) 2014 Mathias Buus
+
+License:MIT
+
+teex
+
+https://github.com/mafintosh/teex
+
+Copyright (c) 2020 Mathias Buus
+
+License:MIT
+
+third-party-web
+
+https://github.com/patrickhulce/third-party-web
+
+Copyright (c) 2019 Patrick Hulce
+
+License:MIT
+
+thread-stream
+
+https://github.com/mcollina/thread-stream
+
+Copyright (c) 2021 Matteo Collina
+
+License:MIT
+
+through
+
+https://github.com/dominictarr/through
+
+Copyright (c) 2011 Dominic Tarr
+
+License:Apache-2.0 AND MIT
+
+tinybench
+
+tinylibs/tinybench
+
+Copyright (c) 2022 Tinylibs
+
+License:MIT
+
+tinyglobby
+
+https://github.com/SuperchupuDev/tinyglobby
+
+Copyright (c) 2024 Madeline Gurriaran
+
+License:MIT
+
+tinypool
+
+https://github.com/tinylibs/tinypool
+
+Copyright (c) 2020 James M Snell and the Piscina contributors
+
+License:MIT
+
+tinyspy
+
+https://github.com/tinylibs/tinyspy
+
+Copyright (c) 2022 Tinylibs
+
+License:MIT
+
+tldts-core
+
+ssh://git@github.com/remusao/tldts
+
+Copyright (c) 2017 Thomas Parisot, 2018 Remi Berson
+
+License:MIT
+
+tldts-icann
+
+ssh://git@github.com/remusao/tldts
+
+Copyright (c) 2017 Thomas Parisot, 2018 Remi Berson
+
+License:MIT
+
+tmp
+
+https://github.com/raszi/node-tmp
+
+Copyright (c) 2011-2017 KARASZI Istvan <github@spam.raszi.hu>, Copyright (c) 2014 KARASZI Istvan
+
+License:MIT
+
+tmp
+
+https://github.com/raszi/node-tmp
+
+Copyright (c) 2011-2017 KARASZI Istvan <github@spam.raszi.hu>, Copyright (c) 2014 KARASZI Istvan
+
+License:MIT
+
+toad-cache
+
+https://github.com/kibertoad/toad-cache
+
+Copyright (c) 2023 Igor Savin, copyright 2026 Igor Savin <kibertoad@gmail.com>
+
+License:MIT
+
+toidentifier
+
+https://github.com/component/toidentifier
+
+Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+tr46
+
+https://github.com/jsdom/tr46
+
+Copyright (c) Sebastian Mayr
+
+License:MIT
+
+tree-kill
+
+https://github.com/pkrumins/node-tree-kill
+
+Copyright (c) 2018 Peter Krumins
+
+License:MIT
+
+tslib
+
+https://github.com/Microsoft/tslib
+
+Copyright (c) Microsoft Corporation
+
+License:0BSD
+
+tslib
+
+https://github.com/Microsoft/tslib
+
+Copyright (c) Microsoft Corporation
+
+License:0BSD
+
+tslib
+
+https://github.com/Microsoft/tslib
+
+Copyright (c) Microsoft Corporation
+
+License:0BSD
+
+tsx
+
+https://github.com/privatenumber/tsx
+
+Copyright (c) Hiroki Osame
+
+License:MIT
+
+tunnel
+
+https://github.com/koichik/node-tunnel
+
+Copyright (c) 2012 Koichi Kobayashi
+
+License:MIT
+
+type-detect
+
+ssh://git@github.com/chaijs/type-detect
+
+Copyright (c) 2013 jake luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)
+
+License:MIT
+
+type-fest
+
+https://github.com/sindresorhus/type-fest
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https:/sindresorhus.com)
+
+License:CC0-1.0 AND MIT
+
+type-is
+
+https://github.com/jshttp/type-is
+
+Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+typed-rest-client
+
+https://github.com/Microsoft/typed-rest-client
+
+Copyright (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors, Copyright (c) 2009-2015, Kevin Decker <kpdecker@gmail.com>, Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2011-2017 JS Foundation and contributors, https://js.foundation, Copyright (c) 2012 Joshua M. Clulow <josh@sysmgr.org>, Copyright (c) 2012 Koichi Kobayashi, Copyright (c) 2012-2014 Kit Cambridge. http://kitcambridge.be, Copyright (c) 2012, Artur Adib <arturadib@gmail.com>, Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>, Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2014 Tyler Kellen, Copyright (c) 2015 Tyler Kellen, Copyright (c) 2015 Zhiye Li, Copyright (c) 2016 Zeit, Inc., Copyright (c) Isaac Z. Schlueter, Copyright (c) Isaac Z. Schlueter 'Author, Copyright (c) Isaac Z. Schlueter and Contributors, Copyright (c) Microsoft, Copyright (c) Microsoft Corporation, Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com), copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>, copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors http://underscorejs.org, Copyright 2010 James Halliday (mail@substack.net), Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>, Copyright 2012-2015 The Dojo Foundation http://dojofoundation.org, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors http://underscorejs.org, Copyright Joyent, Inc. and other Node contributors, Copyright jQuery Foundation and other contributors <https://jquery.org/>, Copyright jQuery Foundation and other contributors https://jquery.org, Copyright Mathias Bynens <https://mathiasbynens.be/>, Copyright Mathias Bynens https://mathiasbynens.be
+
+License:Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND LicenseRef-scancode-unknown AND MIT
+
+typedarray-to-buffer
+
+https://github.com/feross/typedarray-to-buffer
+
+Copyright (c) Feross Aboukhadijeh, Copyright (c) Feross Aboukhadijeh (http://feross.org)
+
+License:MIT
+
+ufo
+
+https://github.com/unjs/ufo
+
+Copyright (c) Pooya Parsa <pooya@pi0.io>
+
+License:MIT
+
+unbzip2-stream
+
+https://github.com/regular/unbzip2-stream
+
+Copyright (c) 2011 by antimatter15 (antimatter15@gmail.com), Copyright (c) 2017 by Jan Boelsche (jan@lagomorph.de), Copyright 2011 by antimatter15 (antimatter15@gmail.com)
+
+License:MIT
+
+underscore
+
+https://github.com/jashkenas/underscore
+
+Copyright (c) (c) && U (c) L (c), (c) 2009-2026 Jeremy Ashkenas, Julian Gonggrijp, and DocumentCloud and Investigative Reporters & Editors Underscore, Copyright (c) 2009-2022 Jeremy Ashkenas, Julian Gonggrijp, and DocumentCloud and Investigative Reporters & Editors
+
+License:MIT
+
+undici-types
+
+https://github.com/nodejs/undici
+
+Copyright (c) Matteo Collina and Undici contributors
+
+License:MIT
+
+undici-types
+
+https://github.com/nodejs/undici
+
+Copyright (c) Matteo Collina and Undici contributors
+
+License:MIT
+
+unicorn-magic
+
+https://github.com/sindresorhus/unicorn-magic
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+unique-string
+
+https://github.com/sindresorhus/unique-string
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+unpipe
+
+https://github.com/stream-utils/unpipe
+
+Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+License:MIT
+
+update-browserslist-db
+
+https://github.com/browserslist/update-db
+
+Copyright (c) 2022 Andrey Sitnik <andrey@sitnik.ru> and other contributors
+
+License:MIT
+
+urlpattern-polyfill
+
+https://github.com/kenchris/urlpattern-polyfill
+
+Copyright (c) 2020 Intel Corporation
+
+License:MIT
+
+utils-merge
+
+https://github.com/jaredhanson/utils-merge
+
+Copyright (c) 2013-2017 Jared Hanson, Copyright (c) 2013-2017 Jared Hanson < http://jaredhanson.net/ (http://jaredhanson.net/)>
+
+License:MIT
+
+uuid
+
+https://github.com/uuidjs/uuid
+
+Copyright (c) 2010-2020 Robert Kieffer and other contributors, Copyright (c) Paul Johnston 1999 - 2009 Other contributors Greg Holt, Andrew Kepert, Ydnar, Lostinet, Copyright (c) Paul Johnston 1999 - 2009 Other contributors Greg Holt, Andrew Kepert, Ydnar, Lostinet Distributed, Copyright 2011, Sebastian Tschan https://blueimp.net
+
+License:MIT
+
+vary
+
+https://github.com/jshttp/vary
+
+Copyright (c) 2014-2017 Douglas Christopher Wilson
+
+License:MIT
+
+vite
+
+https://github.com/vitejs/vite
+
+Copyright (c) (c) Sindre Sorhus, Copyright (c) 2009-2023 Isaac Z. Schlueter and Contributors, Copyright (c) 2010 Sencha Inc., Copyright (c) 2010-2016 Charlie Robbins, Jarrett Cruger & the Contributors, Copyright (c) 2010-2023 Isaac Z. Schlueter and Contributors, Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>, Copyright (c) 2011 LearnBoost, Copyright (c) 2011 TJ Holowaychuk, Copyright (c) 2011-2014 TJ Holowaychuk, Copyright (c) 2011-2023 Isaac Z. Schlueter and Contributors, Copyright (c) 2012-2013 TJ Holowaychuk, Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker, Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com), Copyright (c) 2013 Arnout Kazemier and contributors, Copyright (c) 2013 James Halliday (mail@substack.net), Copyright (c) 2013 Jonathan Ong, Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>, Copyright (c) 2013 Troy Goode <troygoode@gmail.com>, Copyright (c) 2013-2017 Jared Hanson, Copyright (c) 2013-2019 Ivan Nikulin (ifaaan@gmail.com, https://github.com/inikulin), Copyright (c) 2014 Arnout Kazemier, Copyright (c) 2014 Douglas Christopher Wilson, Copyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Jonathan Ong me@jongleberry.com, Copyright (c) 2014 Maxime Thirouin, Jason Campbell & Kevin Martensson, Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>, Copyright (c) 2014-2016 Douglas Christopher Wilson, Copyright (c) 2014-2016, Jon Schlinkert, Copyright (c) 2014-2017 Douglas Christopher Wilson, Copyright (c) 2014-2017 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2014-2017, Jon Schlinkert, Copyright (c) 2014-2018, Jon Schlinkert, Copyright (c) 2014-2020 Teambition, Copyright (c) 2014-present, Jon Schlinkert, Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Simon Lydell, Copyright (c) 2015 Alexey Litvinov, Copyright (c) 2015 Andreas Lubbe, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2015 Matteo Collina, Copyright (c) 2015 Rich Harris, Copyright (c) 2015 Tiancheng Timothy Gu, Copyright (c) 2015 Unshift.io, Arnout Kazemier, Copyright (c) 2015-20 these people (https://github.com/Rich-Harris/estree-walker/graphs/contributors), Copyright (c) 2015-2020, Matteo Collina <matteo.collina@gmail.com>, Copyright (c) 2015-present, Facebook, Inc., Copyright (c) 2015-present, Jon Schlinkert, Copyright (c) 2015, 2019 Elan Shanker, Copyright (c) 2015, David Bonnet <david@bonnet.cc>, Copyright (c) 2015, Glen Maddern, Copyright (c) 2015, Scott Motte, Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2016 Luigi Pinca and contributors, Copyright (c) 2016 Zeit, Inc., Copyright (c) 2016, Scott Motte, Copyright (c) 2017-2023 npm, Inc., Isaac Z. Schlueter, and Contributors, Copyright (c) 2017-present, Jon Schlinkert, Copyright (c) 2017-present, Yuxi, Copyright (c) 2018 Made With MOXY Lda, Copyright (c) 2018-2021 Josh Junon, Copyright (c) 2018-2022 Guy Bedford, Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com), Copyright (c) 2019 Rich Harris, Copyright (c) 2019 RollupJS Plugin Contributors (https://github.com/rollup/plugins/graphs/contributors), Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com), Copyright (c) 2019-present, VoidZero Inc. and Vite contributors, Copyright (c) 2020-present, Yuxi, Copyright (c) 2021 Alexey Raspopov, Kostiantyn Denysov, Anton Verinov, Copyright (c) 2021-present dominikg and contributors (https://github.com/dominikg/tsconfck/graphs/contributors), Copyright (c) 2022 Anthony Fu <https://github.com/antfu>, Copyright (c) 2022 Anthony Fu https://github.com/antfu, Copyright (c) 2022 Anton Kastritskiy, Copyright (c) 2023-present, sapphi-red, Copyright (c) Ben Briggs <beneb.info@gmail.com> (http://beneb.info), Copyright (c) Bogdan Chadkin <trysound@yandex.ru>, Copyright (c) Denis Malinochkin, Copyright (c) EGOIST, Copyright (c) Felix Bohm, Copyright (c) Feross Aboukhadijeh, Copyright (c) Isaac Z. Schlueter and Contributors, Copyright (c) Kevin Martensson <kevinmartensson@gmail.com>, Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (https://lukeed.com), Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com), Copyright (c) Pooya Parsa <pooya@pi0.io>, Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com), Copyright 2013 Thorsten Lorenz, Copyright 2014-present Olivier Lalonde <olalonde@gmail.com> , James Talmage <james@talmage.io> , Ruben Verborgh, Copyright 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Simon Lydell, Copyright 2015 Glen Maddern, Copyright 2015 Mark Dalgleish <mark.john.dalgleish@gmail.com>, Copyright 2015-present Alexander Madyankin <alexander@madyankin.name>, Copyright 2016 Bogdan Chadkin <trysound@yandex.ru>, Copyright 2018 Glen Maddern, Copyright 2018 Rich Harris, Copyright 2019 Justin Ridgewell <jridgewell@google.com>, Copyright 2022 Justin Ridgewell <jridgewell@google.com>, Copyright 2022 Justin Ridgewell <justin@ridgewell.name>, Copyright Eemeli Aro <eemeli@gmail.com>, Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors http://underscorejs.org, Copyright jQuery Foundation and other contributors <https://jquery.org/>, Copyright jQuery Foundation and other contributors https://jquery.org, Copyright JS Foundation and other contributors, Copyright Mathias Bynens <https://mathiasbynens.be/>, Copyright Mathias Bynens https://mathiasbynens.be, Copyright Michael Ciniawsky <michael.ciniawsky@gmail.com>
+
+License:Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT
+
+vite-node
+
+https://github.com/antfu-collective/vite-node
+
+Copyright (c) (c) 2021 Anthony Fu (https://github.com/antfu), Copyright (c) 2021-Present Vitest Team
+
+License:MIT
+
+vitest
+
+https://github.com/vitest-dev/vitest
+
+Copyright (c) (c) 2020 Andrea Giammarchi, Copyright (c) 2010-2014, Christian Johansen, christian@cjohansen.no, Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>, Copyright (c) 2013 Arnout Kazemier and contributors, Copyright (c) 2013 jake luer <jake@alogicalparadox.com>, Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com), Copyright (c) 2014 Permission, Copyright (c) 2014-2016, Jon Schlinkert, Copyright (c) 2014-2017, Jon Schlinkert, Copyright (c) 2014-2018, Jon Schlinkert, Copyright (c) 2014-2020 Teambition, Copyright (c) 2014-present, Jon Schlinkert, Copyright (c) 2015 Matteo Collina, Copyright (c) 2015-2020, Matteo Collina <matteo.collina@gmail.com>, Copyright (c) 2015-present, Jon Schlinkert, Copyright (c) 2015, 2019 Elan Shanker, Copyright (c) 2015, Contributors, Copyright (c) 2016 Luigi Pinca and contributors, Copyright (c) 2017-present, Jon Schlinkert, Copyright (c) 2018 Terkel Gjervig Nielsen, Copyright (c) 2018-2020, Andrea Giammarchi, Copyright (c) 2018, Sinon.JS, Copyright (c) 2021 Anthony Fu <https://github.com/antfu>, Copyright (c) 2021-Present Vitest Team, Copyright (c) DC, Copyright (c) Denis Malinochkin, Copyright (c) EGOIST, Copyright (c) Feross Aboukhadijeh, Copyright (c) Hiroki Osame <hiroki.osame@gmail.com>, Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com), Copyright (c) Meta Platforms, Inc. and affiliates, Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com), Copyright Mathias Bynens <https://mathiasbynens.be/>
+
+License:Apache-2.0 AND BSD-3-Clause AND ISC AND MIT
+
+web-streams-polyfill
+
+https://github.com/MattiasBuelens/web-streams-polyfill
+
+Copyright (c) 2016 Diwank Singh Tomer, Copyright (c) 2021 Mattias Buelens, Copyright 2021 Mattias Buelens, Diwank Singh Tomer and other contributors
+
+License:MIT
+
+webidl-conversions
+
+https://github.com/jsdom/webidl-conversions
+
+Copyright (c) 2014, Domenic Denicola
+
+License:BSD-2-Clause
+
+whatwg-fetch
+
+https://github.com/github/fetch
+
+Copyright (c) 2014-2023 GitHub, Inc.
+
+License:MIT
+
+whatwg-url
+
+https://github.com/jsdom/whatwg-url
+
+Copyright (c) (c) extraPathPercentEncodeSet.has, Copyright (c) 2015-2016 Sebastian Mayr
+
+License:MIT
+
+which
+
+https://github.com/npm/node-which
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+which-module
+
+https://github.com/nexdrew/which-module
+
+Copyright (c) 2016, Contributors
+
+License:ISC
+
+why-is-node-running
+
+https://github.com/mafintosh/why-is-node-running
+
+Copyright (c) 2016 Mathias Buus
+
+License:MIT
+
+wrap-ansi
+
+https://github.com/chalk/wrap-ansi
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+wrap-ansi
+
+https://github.com/chalk/wrap-ansi
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+wrappy
+
+https://github.com/npm/wrappy
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+write-file-atomic
+
+https://github.com/npm/write-file-atomic
+
+Copyright (c) 2015, Rebecca Turner
+
+License:ISC
+
+ws
+
+https://github.com/websockets/ws
+
+Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+
+License:MIT
+
+ws
+
+https://github.com/websockets/ws
+
+Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>, Copyright (c) 2013 Arnout Kazemier and contributors, Copyright (c) 2016 Luigi Pinca and contributors
+
+License:MIT
+
+xdg-basedir
+
+https://github.com/sindresorhus/xdg-basedir
+
+Copyright (c) (c) Sindre Sorhus (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+License:MIT
+
+y18n
+
+https://github.com/yargs/y18n
+
+Copyright (c) 2015, Contributors
+
+License:ISC
+
+y18n
+
+https://github.com/yargs/y18n
+
+Copyright (c) 2015, Copyright (c) 2015, Contributors
+
+License:ISC
+
+yallist
+
+https://github.com/isaacs/yallist
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+License:ISC
+
+yargs
+
+https://github.com/yargs/yargs
+
+Copyright (c) 2011 Andrei Mackenzie, Copyright 2010 James Halliday (mail@substack.net), Copyright 2014 Contributors (ben@npmjs.com)
+
+License:MIT
+
+yargs
+
+https://github.com/yargs/yargs
+
+Copyright (c) 2010 James Halliday (mail@substack.net), Copyright 2014 Contributors (ben@npmjs.com)
+
+License:MIT
+
+yargs-parser
+
+https://github.com/yargs/yargs-parser
+
+Copyright (c) 2016, Contributors
+
+License:ISC
+
+yargs-parser
+
+https://github.com/yargs/yargs-parser
+
+Copyright (c) 2016, Contributors
+
+License:ISC
+
+yargs-parser
+
+https://github.com/yargs/yargs-parser
+
+Copyright (c) 2016 Contributors, Copyright (c) 2016, Contributors
+
+License:ISC
+
+yauzl
+
+https://github.com/thejoshwolfe/yauzl
+
+Copyright (c) 2014 Josh Wolfe
+
+License:MIT
+
+yocto-queue
+
+https://github.com/sindresorhus/yocto-queue
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+yoctocolors
+
+https://github.com/sindresorhus/yoctocolors
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+yoctocolors-cjs
+
+https://github.com/sindresorhus/yoctocolors
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+License:MIT
+
+zod
+
+https://github.com/colinhacks/zod
+
+Copyright (c) 2020 Colin McDonnell, Copyright (c) Microsoft Corporation
+
+License:MIT
+
+LICENSE TEXTS:
+
+--- Apache-2.0 ---
+
+Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+--- MIT ---
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--- BSD-3-Clause ---
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--- Apache-2.0 AND MIT ---
+
+This package is dual/multi-licensed under: Apache-2.0 AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- CC-BY-4.0 ---
+
+Full license text available at: https://creativecommons.org/licenses/by/4.0/legalcode
+
+--- ISC ---
+
+ISC License
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+--- BSD-3-Clause AND MIT ---
+
+This package is dual/multi-licensed under: BSD-3-Clause AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- BSD-2-Clause ---
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+
+--- BSD-2-Clause AND BSD-3-Clause ---
+
+This package is dual/multi-licensed under: BSD-2-Clause AND BSD-3-Clause. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- BSD-2-Clause AND BSD-3-Clause AND MIT ---
+
+This package is dual/multi-licensed under: BSD-2-Clause AND BSD-3-Clause AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- ISC AND MIT ---
+
+This package is dual/multi-licensed under: ISC AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- Apache-2.0 AND BSD-3-Clause ---
+
+This package is dual/multi-licensed under: Apache-2.0 AND BSD-3-Clause. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- 0BSD ---
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+--- CC0-1.0 AND MIT ---
+
+This package is dual/multi-licensed under: CC0-1.0 AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND LicenseRef-scancode-unknown AND MIT ---
+
+This package is dual/multi-licensed under: Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND LicenseRef-scancode-unknown AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT ---
+
+This package is dual/multi-licensed under: Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
+--- Apache-2.0 AND BSD-3-Clause AND ISC AND MIT ---
+
+This package is dual/multi-licensed under: Apache-2.0 AND BSD-3-Clause AND ISC AND MIT. The full text of each component license is provided under its own heading in this LICENSE TEXTS section above (except LicenseRef-scancode-unknown / BlueOak-1.0.0, which have no widely-standardized short text bundled here -- consult the package's own LICENSE file for those terms).
+
